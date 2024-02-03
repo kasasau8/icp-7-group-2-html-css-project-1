@@ -3,12 +3,17 @@
     font-size: 50px;
     text-align: center;
 }
+.fashion-card {
+    width: 600px;
+    height: 300px;
+    margin: 20px;
+}
 .cloth-list {
     border-radius: 15px;
     border-color: #cc0066;
     text-align: center;
     margin: 10px;
-    margin-left: 20px;
+    margin-left: 300px;
     width: 50px;
 }
 
@@ -32,7 +37,7 @@ body {
     border: 2px solid #4d0039;
     border-radius: 10px;
     margin-top: 40px;
-    margin-left: 50px;
+    margin-left: 70px;
     box-shadow: 10px 10px 10px 2px #b3b3b3;
     display: inline-block;
    
