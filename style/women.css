@@ -1,3 +1,8 @@
+.heading {
+    background-color: #ff0066;
+    font-size: 50px;
+    text-align: center;
+}
 .cloth-list {
     border-radius: 15px;
     border-color: #cc0066;
