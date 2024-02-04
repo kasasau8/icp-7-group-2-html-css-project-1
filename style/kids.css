@@ -8,15 +8,12 @@
     justify-content: space-between;
 }
 .banner-card{
-width: 100%;
+width: 120%;
 height: 400px;
 margin: 20px;
 }
-
-
-
 .banner-card1{
-    width: 100%;
+    width: 120px;
     height: 80px;
     margin: 20px;
     
