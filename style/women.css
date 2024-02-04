@@ -1,4 +1,3 @@
-
 .colors {
     color: #3db6bc;
     color: #054b4e;
@@ -43,6 +42,7 @@
     background-color: transparent;
     color: white;
 }
+
 .special-option {
     padding: 5px 10px;
     font-size: 20px;
@@ -59,8 +59,9 @@
 .more-options {
     position: relative;
 }
+
 .more-options-list {
-    visibility: hidden ;
+    visibility: hidden;
     position: absolute;
     background-color: #3db6bc;
     top: 10px;
@@ -69,16 +70,20 @@
     list-style: none;
     border-radius: 10px;
 }
-.more-options:hover > .more-options-list{
-    visibility:visible;
+
+.more-options:hover>.more-options-list {
+    visibility: visible;
 }
-.list-anchors{
+
+.list-anchors {
     text-decoration: none;
-    color:black;
+    color: black;
 }
-.list-anchors:hover{
+
+.list-anchors:hover {
     color: white;
 }
+
 .nav-options-div:hover>.nav-options {
     color: white;
 }
@@ -125,11 +130,7 @@
     text-decoration: none;
     color: white;
 }
-.heading {
-    background-color:#80dfff;
-    font-size: 50px;
-    text-align: center;
-}
+
 
 .fashion-card {
     width: 620px;
@@ -137,13 +138,20 @@
     margin: 20px;
 }
 
+.fashion-card:hover {
+    transition: 0.5s;
+    box-shadow: 10px 10px 20px 1px #b3b3b3;
+
+}
+
 .cloth-list {
     border-radius: 15px;
     border-color: #cc0066;
     text-align: center;
     margin: 10px;
-    margin-left: 300px;
+    margin-left: 350px;
     width: 50px;
+
 }
 
 .border {
@@ -171,11 +179,15 @@ body {
     display: inline-block;
     position: relative;
     bottom: 20px;
+    position: relative;
+    left: 30px;
+
+
 }
 
 .Card:hover {
     transition: 0.5s;
-    border: 2px solid #002266;
+    border: 2px solid red;
     box-shadow: 10px 10px 10px 2px #b3b3b3;
 }
 
@@ -188,13 +200,26 @@ body {
 
 .product-title {
     font-size: 13px;
-    margin-left: 40px;
+    margin-left: 25px;
+}
+
+.product-title1 {
+    font-size: 13px;
+    margin-left: 50px;
+
+}
+
+.product-title2 {
+    font-size: 12px;
+    margin-left: 35px;
+
 }
 
 .product-price {
     padding-left: 20px;
     font-size: 15px;
 }
+
 .Stars-image {
     width: 80px;
     border-radius: 0;
@@ -202,16 +227,26 @@ body {
     position: relative;
     bottom: 15px;
 }
+
 .heading1 {
-    background-color: #6699ff;
-    width: 300px;
+    width: 230px;
     margin-left: 30px;
     text-align: center;
     padding: 10px 10px;
     font-size: large;
-    color: white;
-    background-color:#ff4da6;
+    box-shadow: 10px 10px 10px 2px #b3b3b3;
+    background-color: white;
+    color: #b30059;
     border-radius: 10px;
+    position: relative;
+    left: 500px;
+
+}
+
+.heading1:hover {
+    box-shadow: 10px 10px 10px 2px #b3b3b3;
+    background-color: white;
+    color: #004080;
 }
 
 
@@ -230,9 +265,27 @@ body {
     color: #e60073;
     border-color: white;
 }
-.line{
-    border: dashed;
-    color:#f2f2f2;
-    
 
+.line {
+    border: dashed;
+    color: #f2f2f2;
+
+
+}
+
+.btn-1 {
+    background-color: #e6e6e6;
+    border-radius: 2px;
+    padding: 10px 10px;
+    font-size: 15px;
+    margin-left: 25px;
+
+    width: 300px;
+    border: none;
+    text-align: center;
+
+}
+
+.icon {
+    height: 25px;
 }
