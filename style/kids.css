@@ -26,6 +26,9 @@
     width: fit-content;
 
 }
+.pro-price{
+    font-size: 30px;
+}
 .banner-card{
 width: 120%;
 height: 400px;
