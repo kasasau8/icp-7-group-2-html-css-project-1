@@ -1,7 +1,7 @@
 body {
     margin: 0px;
     padding: 0px;
-    background-color: #f1f2f4;
+    background-color: #e7feff;
 }
 
 .colors {
@@ -14,7 +14,7 @@ body {
 
 
 .nav-bar {
-    background-color: #3db6bc;
+    background-color: #efa9b1;
     display: flex;
     justify-content: space-between;
     padding: 5px 80px;
