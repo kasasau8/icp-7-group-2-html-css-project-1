@@ -80,8 +80,10 @@ margin: 20px;
     display: flex;
     justify-content: space-between;
     text-align: center;
+    position: relative;
 }
 .buy-button:hover{
     transform: scale(0.99);
+    box-shadow: #040405;
 
 }
