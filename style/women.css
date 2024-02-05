@@ -3,12 +3,14 @@
     color: #054b4e;
     color: black;
     color: white;
-
+    color: #efa9b1;
+    color: #f0c14a;
+    color: #e1b9b9;
 }
 
 
 .nav-bar {
-    background-color: #3db6bc;
+    background-color: #efa9b1;
     display: flex;
     justify-content: space-between;
     padding: 5px 80px;
@@ -63,7 +65,7 @@
 .more-options-list {
     visibility: hidden;
     position: absolute;
-    background-color: #3db6bc;
+    background-color: #efa9b1;
     top: 10px;
     left: 10px;
     padding: 20px;
@@ -89,8 +91,8 @@
 }
 
 .footer {
-    background-color: #033a3d;
-    margin-top: 500px;
+    background-color: #f0c14a;
+    margin-top: 0px;
     padding: 10px 0;
 
 }
@@ -103,7 +105,7 @@
 
 .footer-sections {
     width: 200px;
-    color: white;
+    color: black;
     background-color: transparent;
 }
 
@@ -114,23 +116,26 @@
 
 .about-links {
     text-decoration: none;
-    color: white;
+    color: black;
 }
 
 .section-links {
     margin-left: 15px;
-    color: white;
+    color: black;
     font-size: 15px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-
 }
 
 .about-links {
     font-size: 17px;
     text-decoration: none;
-    color: white;
+    color: black;
 }
 
+body {
+    padding: 0px;
+    margin: 0px;
+}
 
 .fashion-card {
     width: 620px;
@@ -141,32 +146,8 @@
 .fashion-card:hover {
     transition: 0.5s;
     box-shadow: 10px 10px 20px 1px #b3b3b3;
-
 }
 
-.cloth-list {
-    border-radius: 15px;
-    border-color: #cc0066;
-    text-align: center;
-    margin: 10px;
-    margin-left: 350px;
-    width: 50px;
-
-}
-
-.border {
-    border-radius: 15px;
-    border-color: #cc0066;
-    text-align: center;
-    margin: 10px;
-    width: 230px;
-    font-size: 20px;
-}
-
-body {
-    padding: 0px;
-    margin: 0px;
-}
 
 .Card {
     width: 150px;
@@ -181,8 +162,6 @@ body {
     bottom: 20px;
     position: relative;
     left: 30px;
-
-
 }
 
 .Card:hover {
@@ -190,6 +169,12 @@ body {
     border: 2px solid red;
     box-shadow: 10px 10px 10px 2px #b3b3b3;
 }
+
+.icon {
+    height: 25px;
+}
+
+
 
 .cloth-image {
     width: 150px;
@@ -240,7 +225,6 @@ body {
     border-radius: 10px;
     position: relative;
     left: 500px;
-
 }
 
 .heading1:hover {
@@ -269,8 +253,6 @@ body {
 .line {
     border: dashed;
     color: #f2f2f2;
-
-
 }
 
 .btn-1 {
@@ -279,13 +261,21 @@ body {
     padding: 10px 10px;
     font-size: 15px;
     margin-left: 25px;
-
+    padding-bottom: 18px;
     width: 300px;
     border: none;
     text-align: center;
-
 }
-
-.icon {
-    height: 25px;
+.link {
+    text-decoration: none;
+    margin-left: 90px;
+    position: relative;
+    left: 400px;
+    width: 230px;
+    text-align: center;
+    padding: 10px 10px;
+    font-size: large;
+    background-color:white;
+    color:blue;
+    border-radius: 10px;
 }
