@@ -1,7 +1,7 @@
 body {
     margin: 0px;
     padding: 0px;
-    background-color: #efa9b1;
+    background-color: #f0c14a;
 }
 
 .colors {
@@ -95,7 +95,7 @@ body {
 }
 
 .footer {
-    background-color: #f0c14a;
+    background-color: #ffe6a7;
     padding: 10px 0;
 
 }
@@ -114,10 +114,13 @@ body {
 
 .section-title {
     font-size: 20px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family:  'Times New Roman', Times, serif;
+    font-weight: 800;
 }
 
 .about-links {
+
+    font-family: 'Times New Roman', Times, serif;
     text-decoration: none;
     color: black;
 }
@@ -126,8 +129,11 @@ body {
     margin-left: 15px;
     color: black;
     font-size: 15px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-weight: 200;
+    font-family:'Times New Roman', Times, serif;;
+    font-weight: 600;
+}
+.section-links :hover{
+    color: rgb(205, 58, 44);
 }
 
 .about-links {

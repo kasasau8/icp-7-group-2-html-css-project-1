@@ -42,14 +42,14 @@
     border: none;
     width: 350px;
     padding: 10px 15px;
-    background-color: #fff7f8;
+    background-color: #ffe6a7;
     border: 1px solid black;
     border-radius: 10px;
 }
 
 .offer_block:hover{
     border-radius: 20px;
-    background-color: #ffffff;
+    background-color: #efa9b1;
     box-shadow: 1px 1px 10px 2px #1b4e51;
     transition: 0.5s;
 }
@@ -89,5 +89,33 @@ h5:hover {
     height: 200px;
    border: 1px solid black;
 }
+.mens-main{
+    background-color:#ffe6a7;
+    width: 85%;
+    padding: 40px 50px;
+    margin: 15px auto;
+    position: relative;
+    border-radius: 5px;
+}
+.mens-container{
+  display: flex;
+  gap: 50px;
+  flex-wrap: wrap;
+  justify-content: space-around; 
+}
+.mens-img{
+    width:200px ;
+    padding: 10px;
+}
+.btn-explore{
+    position: absolute;
+    bottom: 15px;
+    right: 30px;
+    border: none;
+    background-color: red;
+    color: white;
+    border-radius: 5px ;
+padding:5px 15px ;
 
+}
 
