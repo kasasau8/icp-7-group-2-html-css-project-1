@@ -1,7 +1,7 @@
 body {
     margin: 0px;
     padding: 0px;
-    background-color: #f0c14a;
+    background-color: #ffffff;
 }
 
 .colors {
@@ -87,7 +87,18 @@ body {
 .list-anchors:hover{
     color: white;
 }
-
+@media screen and (max-width: 500px)  {
+    .nav-bar{
+        flex-direction: column;
+    } 
+    .shop-logo{
+        margin-left: 100px;
+    }
+    .menu{
+        font-size: 5px;
+    }
+    
+}
 
 /* combination of selectors*/
 .nav-options-div:hover>.nav-options {
