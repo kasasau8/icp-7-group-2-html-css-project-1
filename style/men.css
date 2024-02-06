@@ -1,0 +1,28 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: #f0c14a;
+}
+
+.colors {
+    color: #3db6bc;
+    color: #054b4e;
+    color: black;
+    color: white;
+    color: #efa9b1;
+    color: #f0c14a;
+    color:#e1b9b9;
+}
+
+
+.nav-bar {
+    background-color:#efa9b1;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 80px;
+}
+
+.shop-logo {
+    height: 60px;
+    margin: 5px;
+}
