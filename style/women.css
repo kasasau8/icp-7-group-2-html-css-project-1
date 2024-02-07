@@ -116,7 +116,6 @@ body {
 .footer {
     background-color: #ffe6a7;
     padding: 10px 0;
-
 }
 
 .sections-container {
@@ -172,13 +171,6 @@ body {
 }
 
 
-.fashion-card {
-    width: 620px;
-    height: 300px;
-    margin: 40px;
-    Position:relative;
-    Left: 60Px;
-
 .fashion-card1:hover {
     transition: 0.5s;
     box-shadow: 10px 10px 20px 1px #b3b3b3;
@@ -191,7 +183,6 @@ body {
     margin: 10px;
     position: relative;
     left: 30px;
-
 }
 
 .fashion-card2:hover {
@@ -212,9 +203,7 @@ body {
     position: relative;
     bottom: 20px;
     position: relative;
-
     left: 100px;
-
     left: 30px;
     align-items: center;
     flex-wrap: wrap;
@@ -285,9 +274,7 @@ body {
     color: #b30059;
     border-radius: 10px;
     position: relative;
-
     left: 600px;
-
     left: 370px;
 
 }
@@ -318,8 +305,8 @@ body {
 .line {
     border: dashed;
     color: #f2f2f2;
-    Position:relative;
-    Left :40Px;
+    Position: relative;
+    Left: 40Px;
 }
 
 .btn-1 {
@@ -327,16 +314,14 @@ body {
     border-radius: 2px;
     padding: 5px 5px;
     font-size: 15px;
-    margin-left: 38px;
+    margin-left: 8px;
     padding-bottom: 12px;
-    width: 220px;
+    width: 240px;
     border: none;
     align-items: center;
     text-align: center;
-
-    Position:relative;
-    Left :90Px;
-
+    Position: relative;
+    Left: 35Px;
     justify-content: space-between;
 
 }
@@ -402,17 +387,4 @@ body {
     left: 390px;
     bottom: 5px;
     margin-left: 10px;
-}
-
-@media screen and (max-width:350px){
-    
-    .nav-options {
-        font-size: 10px;
-        text-decoration: none;
-        color: black;
-        margin: 0 5px;
-        padding: 2px;
-    }
-
-    
 }
