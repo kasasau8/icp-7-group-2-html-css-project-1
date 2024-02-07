@@ -1,3 +1,9 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: #ffffff;
+}
+
 .colors {
     color: #3db6bc;
     color: #054b4e;
@@ -5,12 +11,12 @@
     color: white;
     color: #efa9b1;
     color: #f0c14a;
-    color: #e1b9b9;
+    color:#e1b9b9;
 }
 
 
 .nav-bar {
-    background-color: #efa9b1;
+    background-color:#efa9b1;
     display: flex;
     justify-content: space-between;
     padding: 5px 80px;
@@ -44,7 +50,6 @@
     background-color: transparent;
     color: white;
 }
-
 .special-option {
     padding: 5px 10px;
     font-size: 20px;
@@ -53,7 +58,7 @@
 .nav-options {
     font-size: 20px;
     text-decoration: none;
-    color: #000000;
+    color: black;
     margin: 0 10px;
     padding: 5px;
 }
@@ -61,38 +66,47 @@
 .more-options {
     position: relative;
 }
-
 .more-options-list {
-    visibility: hidden;
+    visibility: hidden ;
     position: absolute;
     background-color: #efa9b1;
-    top: 10px;
+    margin: 0;
+    top: 20px;
     left: 10px;
     padding: 20px;
     list-style: none;
     border-radius: 10px;
 }
-
-.more-options:hover>.more-options-list {
-    visibility: visible;
+.more-options:hover > .more-options-list{
+    visibility:visible;
 }
-
-.list-anchors {
+.list-anchors{
     text-decoration: none;
-    color: black;
+    color:black;
 }
-
-.list-anchors:hover {
+.list-anchors:hover{
     color: white;
 }
+@media screen and (max-width: 500px)  {
+    .nav-bar{
+        flex-direction: column;
+    } 
+    .shop-logo{
+        margin-left: 100px;
+    }
+    .menu{
+        font-size: 5px;
+    }
+    
+}
 
+/* combination of selectors*/
 .nav-options-div:hover>.nav-options {
     color: white;
 }
 
 .footer {
-    background-color: #f0c14a;
-    margin-top: 0px;
+    background-color: #ffe6a7;
     padding: 10px 0;
 
 }
@@ -111,10 +125,13 @@
 
 .section-title {
     font-size: 20px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family:  'Times New Roman', Times, serif;
+    font-weight: 800;
 }
 
 .about-links {
+
+    font-family: 'Times New Roman', Times, serif;
     text-decoration: none;
     color: black;
 }
@@ -123,7 +140,11 @@
     margin-left: 15px;
     color: black;
     font-size: 15px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family:'Times New Roman', Times, serif;;
+    font-weight: 600;
+}
+.section-links :hover{
+    color: rgb(205, 58, 44);
 }
 
 .about-links {
@@ -132,36 +153,62 @@
     color: black;
 }
 
-body {
-    padding: 0px;
-    margin: 0px;
+.fashion-card1{
+    width: 490px;
+    height: 250px;
+    position: relative;
+    left: 30px;
+    margin: 10px;
 }
+
 
 .fashion-card {
     width: 620px;
     height: 300px;
-    margin: 20px;
-}
+    margin: 40px;
+    Position:relative;
+    Left: 60Px;
 
-.fashion-card:hover {
+.fashion-card1:hover {
     transition: 0.5s;
     box-shadow: 10px 10px 20px 1px #b3b3b3;
+    border-radius: 10px;
+}
+.fashion-card2{
+    width: 490px;
+    height: 250px;
+    margin: 10px;
+    position: relative;
+    left: 30px;
+
 }
 
+.fashion-card2:hover {
+    transition: 0.5s;
+    box-shadow: 10px 10px 20px 1px #b3b3b3;
+    border-radius: 10px;
+}
 
 .Card {
-    width: 150px;
+    width: 140px;
     height: 280px;
     border: 2px solid #4d0039;
     border-radius: 10px;
     margin-top: 40px;
-    margin-left: 50px;
+    margin-left: 20px;
     box-shadow: 10px 10px 20px 1px #b3b3b3;
     display: inline-block;
     position: relative;
     bottom: 20px;
     position: relative;
+
+    left: 100px;
+
     left: 30px;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
 }
 
 .Card:hover {
@@ -171,13 +218,15 @@ body {
 }
 
 .icon {
-    height: 25px;
+    height: 20px;
+    position: relative;
+    top: 5px;
 }
 
 
 
 .cloth-image {
-    width: 150px;
+    width: 140px;
     height: 130px;
     border-radius: 10px 5px 0px;
     display: inline-block;
@@ -215,16 +264,20 @@ body {
 
 .heading1 {
     width: 230px;
-    margin-left: 30px;
+    margin-left: 20px;
     text-align: center;
-    padding: 10px 10px;
+    padding: 8px 8px;
     font-size: large;
     box-shadow: 10px 10px 10px 2px #b3b3b3;
     background-color: white;
     color: #b30059;
     border-radius: 10px;
     position: relative;
-    left: 500px;
+
+    left: 600px;
+
+    left: 370px;
+
 }
 
 .heading1:hover {
@@ -253,24 +306,42 @@ body {
 .line {
     border: dashed;
     color: #f2f2f2;
+    Position:relative;
+    Left :40Px;
 }
 
 .btn-1 {
     background-color: #e6e6e6;
     border-radius: 2px;
-    padding: 10px 10px;
+    padding: 5px 5px;
     font-size: 15px;
-    margin-left: 25px;
-    padding-bottom: 18px;
-    width: 300px;
+    margin-left: 38px;
+    padding-bottom: 12px;
+    width: 220px;
     border: none;
+    align-items: center;
     text-align: center;
+
+    Position:relative;
+    Left :90Px;
+
+    justify-content: space-between;
+   
+}
+.btn-1:hover{
+    border-radius: 10px;
+    border-color: white;
+    transition: 0.5s;
+
 }
 .link {
     text-decoration: none;
-    margin-left: 90px;
+    margin-left: 20px;
     position: relative;
-    left: 400px;
+
+    left: 500px;
+    left: 350px;
+
     width: 230px;
     text-align: center;
     padding: 10px 10px;
@@ -282,25 +353,26 @@ body {
 .social-media {
       text-align: center;
       color:#800040;
+      font-size: 30px;
 }
 .social-logo1 {
     width: 50px;
     position: relative;
-    left: 520px;
+    left: 390px;
     bottom: 5px;
     margin-left: 10px;
 }
 .social-logo2 {
     width: 60px;
     position: relative;
-    left: 520px;
+    left: 390px;
     bottom: 0px;
     margin-left: 10px;
 }
 .social-logo3 {
     width: 55px;
     position: relative;
-    left: 520px;
+    left: 390px;
     bottom: 3px;
     margin-left: 10px;
    
@@ -308,7 +380,7 @@ body {
 .social-logo4 {
     width: 50px;
     position: relative;
-    left: 520px;
+    left: 390px;
     bottom: 5px;
     margin-left: 10px;
 }
