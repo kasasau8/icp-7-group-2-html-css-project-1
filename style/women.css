@@ -140,7 +140,9 @@ body {
 .fashion-card {
     width: 620px;
     height: 300px;
-    margin: 20px;
+    margin: 40px;
+    Position:relative;
+    Left: 60Px;
 }
 
 .fashion-card:hover {
@@ -161,7 +163,7 @@ body {
     position: relative;
     bottom: 20px;
     position: relative;
-    left: 30px;
+    left: 100px;
 }
 
 .Card:hover {
@@ -224,7 +226,7 @@ body {
     color: #b30059;
     border-radius: 10px;
     position: relative;
-    left: 500px;
+    left: 600px;
 }
 
 .heading1:hover {
@@ -253,6 +255,8 @@ body {
 .line {
     border: dashed;
     color: #f2f2f2;
+    Position:relative;
+    Left :40Px;
 }
 
 .btn-1 {
@@ -265,12 +269,14 @@ body {
     width: 300px;
     border: none;
     text-align: center;
+    Position:relative;
+    Left :90Px;
 }
 .link {
     text-decoration: none;
     margin-left: 90px;
     position: relative;
-    left: 400px;
+    left: 500px;
     width: 230px;
     text-align: center;
     padding: 10px 10px;
