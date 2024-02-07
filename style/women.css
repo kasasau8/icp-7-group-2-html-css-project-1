@@ -285,3 +285,38 @@ body {
     color:blue;
     border-radius: 10px;
 }
+.social-media {
+      text-align: center;
+      color:#800040;
+}
+.social-logo1 {
+    width: 50px;
+    position: relative;
+    left: 520px;
+    bottom: 5px;
+    margin-left: 10px;
+}
+.social-logo2 {
+    width: 60px;
+    position: relative;
+    left: 520px;
+    bottom: 0px;
+    margin-left: 10px;
+}
+.social-logo3 {
+    width: 55px;
+    position: relative;
+    left: 520px;
+    bottom: 3px;
+    margin-left: 10px;
+   
+}
+.social-logo4 {
+    width: 50px;
+    position: relative;
+    left: 520px;
+    bottom: 5px;
+    margin-left: 10px;
+}
+
+
