@@ -11,12 +11,12 @@ body {
     color: white;
     color: #efa9b1;
     color: #f0c14a;
-    color:#e1b9b9;
+    color: #e1b9b9;
 }
 
 
 .nav-bar {
-    background-color:#efa9b1;
+    background-color: #efa9b1;
     display: flex;
     justify-content: space-between;
     padding: 5px 80px;
@@ -50,6 +50,7 @@ body {
     background-color: transparent;
     color: white;
 }
+
 .special-option {
     padding: 5px 10px;
     font-size: 20px;
@@ -66,8 +67,9 @@ body {
 .more-options {
     position: relative;
 }
+
 .more-options-list {
-    visibility: hidden ;
+    visibility: hidden;
     position: absolute;
     background-color: #efa9b1;
     margin: 0;
@@ -77,27 +79,33 @@ body {
     list-style: none;
     border-radius: 10px;
 }
-.more-options:hover > .more-options-list{
-    visibility:visible;
+
+.more-options:hover>.more-options-list {
+    visibility: visible;
 }
-.list-anchors{
+
+.list-anchors {
     text-decoration: none;
-    color:black;
+    color: black;
 }
-.list-anchors:hover{
+
+.list-anchors:hover {
     color: white;
 }
-@media screen and (max-width: 500px)  {
-    .nav-bar{
+
+@media screen and (max-width: 500px) {
+    .nav-bar {
         flex-direction: column;
-    } 
-    .shop-logo{
+    }
+
+    .shop-logo {
         margin-left: 100px;
     }
-    .menu{
+
+    .menu {
         font-size: 5px;
     }
-    
+
 }
 
 /* combination of selectors*/
@@ -125,7 +133,7 @@ body {
 
 .section-title {
     font-size: 20px;
-    font-family:  'Times New Roman', Times, serif;
+    font-family: 'Times New Roman', Times, serif;
     font-weight: 800;
 }
 
@@ -140,10 +148,12 @@ body {
     margin-left: 15px;
     color: black;
     font-size: 15px;
-    font-family:'Times New Roman', Times, serif;;
+    font-family: 'Times New Roman', Times, serif;
+    ;
     font-weight: 600;
 }
-.section-links :hover{
+
+.section-links :hover {
     color: rgb(205, 58, 44);
 }
 
@@ -153,7 +163,7 @@ body {
     color: black;
 }
 
-.fashion-card1{
+.fashion-card1 {
     width: 490px;
     height: 250px;
     position: relative;
@@ -166,7 +176,8 @@ body {
     box-shadow: 10px 10px 20px 1px #b3b3b3;
     border-radius: 10px;
 }
-.fashion-card2{
+
+.fashion-card2 {
     width: 490px;
     height: 250px;
     margin: 10px;
@@ -182,7 +193,7 @@ body {
 
 .Card {
     width: 140px;
-    height: 280px;
+    height: 270px;
     border: 2px solid #4d0039;
     border-radius: 10px;
     margin-top: 40px;
@@ -238,7 +249,8 @@ body {
 
 .product-price {
     padding-left: 20px;
-    font-size: 15px;
+    font-size: 13px;
+    text-align: center;
 }
 
 .Stars-image {
@@ -303,13 +315,15 @@ body {
     align-items: center;
     text-align: center;
     justify-content: space-between;
-   
+
 }
-.btn-1:hover{
+
+.btn-1:hover {
     border-radius: 10px;
     border-color: white;
     transition: 0.5s;
 }
+
 .link {
     text-decoration: none;
     margin-left: 20px;
@@ -319,15 +333,17 @@ body {
     text-align: center;
     padding: 10px 10px;
     font-size: large;
-    background-color:white;
-    color:blue;
+    background-color: white;
+    color: blue;
     border-radius: 10px;
 }
+
 .social-media {
-      text-align: center;
-      color:#800040;
-      font-size: 30px;
+    text-align: center;
+    color: #800040;
+    font-size: 30px;
 }
+
 .social-logo1 {
     width: 50px;
     position: relative;
@@ -335,6 +351,7 @@ body {
     bottom: 5px;
     margin-left: 10px;
 }
+
 .social-logo2 {
     width: 60px;
     position: relative;
@@ -342,14 +359,16 @@ body {
     bottom: 0px;
     margin-left: 10px;
 }
+
 .social-logo3 {
     width: 55px;
     position: relative;
     left: 390px;
     bottom: 3px;
     margin-left: 10px;
-   
+
 }
+
 .social-logo4 {
     width: 50px;
     position: relative;
@@ -358,4 +377,15 @@ body {
     margin-left: 10px;
 }
 
+@media screen and (max-width:350px){
+    
+    .nav-options {
+        font-size: 10px;
+        text-decoration: none;
+        color: black;
+        margin: 0 5px;
+        padding: 2px;
+    }
 
+    
+}
