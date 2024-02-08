@@ -1,5 +1,5 @@
 .heading {
-    background-color: #ff0066;
+    background-color: #c289a0;
     font-size: 50px;
     text-align: center;
 }
@@ -23,7 +23,7 @@
 }
 .banner-card:hover{
     transition: 0.5s;
-    box-shadow: 10px 10px 20px 1px #000000;
+    box-shadow: 10px 10px 20px 1px #927676;
 }
 .banner-card1{
         width: 800px;
@@ -37,7 +37,7 @@
 }
 .banner-card1:hover{
     transition: 0.5s;
-    box-shadow: 10px 10px 20px 1px #000000;
+    box-shadow: 10px 10px 20px 1px #514949;
 }
 
 
@@ -48,7 +48,7 @@
     border: 2px solid #4d0039;
     border-radius: 10px;
     margin-top: 40px;
-    margin-left: 50px;
+    margin-left: 70px;
     box-shadow: 10px 10px 20px 1px #b3b3b3;
     display: inline-block;
     position: relative;
@@ -88,6 +88,7 @@
     bottom: 15px;
 }
 .buy-btn {
+   
     position: relative;
     bottom: 15px;
     left: 35px;
@@ -95,12 +96,21 @@
     border-color: #0055ff;
     color: white;
     border-radius: 10px;
+    padding: 6px 6px 6px 6px;
+    font-size: 12px;
 }
 
 .buy-btn:hover {
     background-color: #ffffff;
     color: #e60073;
     border-color: white;
+}
+.line
+{
+    height: 0.2px;
+   
+    width: 90%;
+    color: black;
 }
 /*
 .container-1{

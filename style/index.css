@@ -23,7 +23,8 @@
 .main {
     padding-bottom: 30px;
 }
-.banner-sec-title{
+
+.banner-sec-title {
     text-align: center;
     font-size: 30px;
     font-family: 'Times New Roman', Times, serif;
@@ -157,30 +158,40 @@ h5:hover {
 }
 
 @media screen and (max-width: 500px) {
+    .main {
+        padding-bottom: 20px;
+    }
 
     .banner-sec {
         width: 100%;
     }
-    .banner-sec-title{
+
+    .banner-sec-title {
         font-size: 15px;
     }
-    .banner-title{
+
+    .banner-title {
         font-size: 15px;
     }
+
     .container {
         display: block;
-        margin: 0 auto;
+        margin: 0 50px;
     }
-    .offer_block{
+
+    .offer_block {
         height: 330px;
     }
+
     .h5 {
         margin: 5px;
     }
-.product-img{
-    height: 70px;
-    width: 110px;
-}
+
+    .product-img {
+        height: 70px;
+        width: 110px;
+    }
+
     .pr-container {
         display: flex;
         justify-content: space-around;
@@ -238,6 +249,104 @@ h5:hover {
         bottom: 10px;
         right: 20px;
         font-size: 12px;
+    }
+}
+
+@media screen and (min-width:501px) and (max-width:768px) {
+    .main {
+        padding-bottom: 10px;
+    }
+    .banner-sec-title {
+        margin: 5px;
+        font-size: 15px;
+    }
+
+    .banner-title {
+        font-size: 20px;
+    }
+
+    .container {
+        flex-direction: column;
+        margin: 0 auto;
+
+    }
+    .offer_block {
+        margin: 2px 5px;
+        width: 90%;
+        font-size: 12px;
+    }
+
+    .offer_block-title {
+        width: 20px;
+        font-size: 10px;
+    }
+
+    .product-container {
+        gap: 30px;
+        width: 100px;
+    }
+
+    .product-img {
+        height: 100px;
+        width: 100px;
+    }
+
+    .pr-container {
+        margin: 0px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        height: 150px;
+    }
+
+    .product-title {
+        font-size: 15px;
+    }
+    .h5 {
+        font-size: 20px;
+        margin: 2px;
+    }
+    .brand-logo {
+        margin: 0;
+    }
+
+    .brand-img-div {
+        display: inline;
+    }
+
+    .brand-img {
+        height: 100px;
+        width: 100px;
+    }
+
+    .mens-main {
+        width: 90%;
+        padding: 30px 20px;
+    }
+
+    .mens-section-title {
+        font-size: 20px;
+    }
+
+    .mens-container {
+        width: 80%;
+        gap: 0;
+        justify-content: space-around;
+        margin-left: 50px;
+    }
+
+    .mens-img {
+        gap: 100px;
+        height: 170px;
+        width: 140px;
+    }
+
+    .btn-explore {
+        padding: 5px 10px;
+        bottom: 10px;
+        right: 20px;
+        font-size: 13px;
     }
 
 

@@ -138,10 +138,12 @@ body {
     font-family: 'Times New Roman', Times, serif;
     font-weight: 600;
 }
-.mail-link{
+
+.mail-link {
     text-decoration: none;
     color: black;
 }
+
 .section-links :hover {
     color: rgb(205, 58, 44);
 }
@@ -176,7 +178,7 @@ body {
         font-size: 15px;
     }
 
-    
+
 
     .sections-container {
         display: flex;
@@ -218,7 +220,73 @@ body {
         font-family: 'Times New Roman', Times, serif;
         font-weight: 600;
     }
-    .mail-link{
+
+    .mail-link {
+        text-decoration: none;
+    }
+}
+
+@media screen and (min-width:501px) and (max-width:768px) {
+    .menu {
+        justify-content: end;
+    }
+
+    .shop-logo {
+        height: 50px;
+        margin: 2px;
+    }
+
+    .nav-options-div {
+        font-size: 15px;
+    }
+
+    .nav-options {
+        padding: 0px 0px;
+        font-size: 15px;
+    }
+
+    .sections-container {
+        display: flex;
+        justify-content: space-between;
+        margin: 5px 50px;
+    }
+
+    .footer-sections {
+        margin-right: 10px;
+        width: 100px;
+    }
+
+    .section-title {
+        font-size: 15px;
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: 600;
+    }
+
+    .section-links {
+        font-size: 15px;
+    }
+
+    .about-links {
+        font-size: 15px;
+        text-decoration: none;
+        color: black;
+    }
+
+    .section-links {
+        padding: 0px;
+        margin-left: 0px;
+        font-size: 15px;
+        text-decoration: none;
+        color: black;
+    }
+
+    .copyright {
+        font-size: 14px;
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: 600;
+    }
+
+    .mail-link {
         text-decoration: none;
     }
 }
