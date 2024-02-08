@@ -110,7 +110,7 @@
 .line
 {
     height: 0.2px;
-   
+    
     width: 90%;
     color: black;
 }
@@ -168,6 +168,21 @@
     background-color: white;
     color: #004080;
     
+}
+/*check*/
+@media screen and (max-width: 500px) {
+    .nav-bar {
+        flex-direction: column;
+    }
+
+    .shop-logo {
+        margin-left: 100px;
+    }
+
+    .menu {
+        font-size: 5px;
+    }
+
 }
 
 /*
