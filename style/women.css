@@ -11,12 +11,12 @@ body {
     color: white;
     color: #efa9b1;
     color: #f0c14a;
-    color:#e1b9b9;
+    color: #e1b9b9;
 }
 
 
 .nav-bar {
-    background-color:#efa9b1;
+    background-color: #efa9b1;
     display: flex;
     justify-content: space-between;
     padding: 5px 80px;
@@ -50,6 +50,7 @@ body {
     background-color: transparent;
     color: white;
 }
+
 .special-option {
     padding: 5px 10px;
     font-size: 20px;
@@ -66,8 +67,9 @@ body {
 .more-options {
     position: relative;
 }
+
 .more-options-list {
-    visibility: hidden ;
+    visibility: hidden;
     position: absolute;
     background-color: #efa9b1;
     margin: 0;
@@ -77,27 +79,33 @@ body {
     list-style: none;
     border-radius: 10px;
 }
-.more-options:hover > .more-options-list{
-    visibility:visible;
+
+.more-options:hover>.more-options-list {
+    visibility: visible;
 }
-.list-anchors{
+
+.list-anchors {
     text-decoration: none;
-    color:black;
+    color: black;
 }
-.list-anchors:hover{
+
+.list-anchors:hover {
     color: white;
 }
-@media screen and (max-width: 500px)  {
-    .nav-bar{
+
+@media screen and (max-width: 500px) {
+    .nav-bar {
         flex-direction: column;
-    } 
-    .shop-logo{
+    }
+
+    .shop-logo {
         margin-left: 100px;
     }
-    .menu{
+
+    .menu {
         font-size: 5px;
     }
-    
+
 }
 
 /* combination of selectors*/
@@ -108,7 +116,6 @@ body {
 .footer {
     background-color: #ffe6a7;
     padding: 10px 0;
-
 }
 
 .sections-container {
@@ -125,7 +132,7 @@ body {
 
 .section-title {
     font-size: 20px;
-    font-family:  'Times New Roman', Times, serif;
+    font-family: 'Times New Roman', Times, serif;
     font-weight: 800;
 }
 
@@ -140,10 +147,12 @@ body {
     margin-left: 15px;
     color: black;
     font-size: 15px;
-    font-family:'Times New Roman', Times, serif;;
+    font-family: 'Times New Roman', Times, serif;
+    ;
     font-weight: 600;
 }
-.section-links :hover{
+
+.section-links :hover {
     color: rgb(205, 58, 44);
 }
 
@@ -153,7 +162,7 @@ body {
     color: black;
 }
 
-.fashion-card1{
+.fashion-card1 {
     width: 490px;
     height: 250px;
     position: relative;
@@ -161,26 +170,19 @@ body {
     margin: 10px;
 }
 
-
-.fashion-card {
-    width: 620px;
-    height: 300px;
-    margin: 40px;
-    Position:relative;
-    Left: 60Px;
 
 .fashion-card1:hover {
     transition: 0.5s;
     box-shadow: 10px 10px 20px 1px #b3b3b3;
     border-radius: 10px;
 }
-.fashion-card2{
+
+.fashion-card2 {
     width: 490px;
     height: 250px;
     margin: 10px;
     position: relative;
     left: 30px;
-
 }
 
 .fashion-card2:hover {
@@ -191,7 +193,7 @@ body {
 
 .Card {
     width: 140px;
-    height: 280px;
+    height: 270px;
     border: 2px solid #4d0039;
     border-radius: 10px;
     margin-top: 40px;
@@ -201,9 +203,7 @@ body {
     position: relative;
     bottom: 20px;
     position: relative;
-
     left: 100px;
-
     left: 30px;
     align-items: center;
     flex-wrap: wrap;
@@ -251,7 +251,8 @@ body {
 
 .product-price {
     padding-left: 20px;
-    font-size: 15px;
+    font-size: 13px;
+    text-align: center;
 }
 
 .Stars-image {
@@ -273,9 +274,7 @@ body {
     color: #b30059;
     border-radius: 10px;
     position: relative;
-
     left: 600px;
-
     left: 370px;
 
 }
@@ -306,8 +305,8 @@ body {
 .line {
     border: dashed;
     color: #f2f2f2;
-    Position:relative;
-    Left :40Px;
+    Position: relative;
+    Left: 40Px;
 }
 
 .btn-1 {
@@ -315,25 +314,25 @@ body {
     border-radius: 2px;
     padding: 5px 5px;
     font-size: 15px;
-    margin-left: 38px;
+    margin-left: 8px;
     padding-bottom: 12px;
-    width: 220px;
+    width: 240px;
     border: none;
     align-items: center;
     text-align: center;
-
-    Position:relative;
-    Left :90Px;
-
+    Position: relative;
+    Left: 35Px;
     justify-content: space-between;
-   
+
 }
-.btn-1:hover{
+
+.btn-1:hover {
     border-radius: 10px;
     border-color: white;
     transition: 0.5s;
 
 }
+
 .link {
     text-decoration: none;
     margin-left: 20px;
@@ -346,15 +345,17 @@ body {
     text-align: center;
     padding: 10px 10px;
     font-size: large;
-    background-color:white;
-    color:blue;
+    background-color: white;
+    color: blue;
     border-radius: 10px;
 }
+
 .social-media {
-      text-align: center;
-      color:#800040;
-      font-size: 30px;
+    text-align: center;
+    color: #800040;
+    font-size: 30px;
 }
+
 .social-logo1 {
     width: 50px;
     position: relative;
@@ -362,6 +363,7 @@ body {
     bottom: 5px;
     margin-left: 10px;
 }
+
 .social-logo2 {
     width: 60px;
     position: relative;
@@ -369,14 +371,16 @@ body {
     bottom: 0px;
     margin-left: 10px;
 }
+
 .social-logo3 {
     width: 55px;
     position: relative;
     left: 390px;
     bottom: 3px;
     margin-left: 10px;
-   
+
 }
+
 .social-logo4 {
     width: 50px;
     position: relative;
@@ -384,5 +388,3 @@ body {
     bottom: 5px;
     margin-left: 10px;
 }
-
-
