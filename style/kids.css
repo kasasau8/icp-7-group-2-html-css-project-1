@@ -1,10 +1,38 @@
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: #ffffff;
+}
 .heading {
-    background-color: #ff0066;
+    background-color: #c289a0;
     font-size: 50px;
     text-align: center;
 }
+.heading1 {
+    width: 230px;
+    margin-left: 20px;
+    text-align: center;
+    padding: 8px 8px;
+    font-size: large;
+    box-shadow: 10px 10px 10px 2px #b3b3b3;
+    background-color: white;
+    color: #b30059;
+    border-radius: 10px;
+    position: relative;
+    left: 600px;
+    left: 370px;
+}
+
+.heading1:hover {
+    box-shadow: 10px 10px 10px 1px #cceeff ;
+    background-color: white;
+    color: #004080;
+    
+}
 .container{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
     height: fit-content;
     
@@ -23,9 +51,10 @@
 }
 .banner-card:hover{
     transition: 0.5s;
-    box-shadow: 10px 10px 20px 1px #000000;
+    box-shadow: 10px 10px 20px 1px #927676;
 }
 .banner-card1{
+    
         width: 800px;
         height; 80px;
         margin-top: 20px;
@@ -37,7 +66,7 @@
 }
 .banner-card1:hover{
     transition: 0.5s;
-    box-shadow: 10px 10px 20px 1px #000000;
+    box-shadow: 10px 10px 20px 1px #514949;
 }
 
 
@@ -48,7 +77,7 @@
     border: 2px solid #4d0039;
     border-radius: 10px;
     margin-top: 40px;
-    margin-left: 50px;
+    margin-left: 70px;
     box-shadow: 10px 10px 20px 1px #b3b3b3;
     display: inline-block;
     position: relative;
@@ -88,6 +117,7 @@
     bottom: 15px;
 }
 .buy-btn {
+   
     position: relative;
     bottom: 15px;
     left: 35px;
@@ -95,6 +125,8 @@
     border-color: #0055ff;
     color: white;
     border-radius: 10px;
+    padding: 6px 6px 6px 6px;
+    font-size: 12px;
 }
 
 .buy-btn:hover {
@@ -102,16 +134,66 @@
     color: #e60073;
     border-color: white;
 }
+.line
+{
+    height: 0.2px;
+    
+    width: 90%;
+    color: black;
+}
+
+
+.icon {
+    height: 20px;
+    position: relative;
+    top: 5px;
+}
+.btn-1 {
+    background-color: #e6e6e6;
+    border-radius: 2px;
+    padding: 5px 5px;
+    font-size: 15px;
+    margin-left: 8px;
+    padding-bottom: 12px;
+    width: 240px;
+    border: none;
+    align-items: center;
+    text-align: center;
+    Position: relative;
+    Left: 35Px;
+    justify-content: space-between;
+    color:#995c00 ;
+   
+
+}
+
+.btn-1:hover {
+    border-radius: 10px;
+    border-color: white;
+    transition: 0.5s;
+    color: red;
+    box-shadow: 10px 10px 10px 1px #f2f2f2;
+   
+}
+
+/*check*/
+@media screen and (max-width: 500px) {
+    .nav-bar {
+        flex-direction: column;
+    }
+
+    .shop-logo {
+        margin-left: 100px;
+    }
+
+    .menu {
+        font-size: 5px;
+    }
+
+}
+
 /*
-.container-1{
-    display: flex;
-    justify-content: space-around;
-    border-style: dashed;
-    margin: 15px;
-    height: 400px;
-    width: 1500px;
-    padding-right: 30px;
-}.container-2{
+.container-2{
     display: flex;
     justify-content: space-around;
     border-style: solid;
@@ -119,6 +201,16 @@
     height: 600px;
     width: fit-content;
 
+}
+.container-1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    border-style: dashed;
+    margin: 15px;
+    height: 400px;
+    width: 1500px;
+    padding-right: 30px;
 }
 .Card {
     position: relative;
