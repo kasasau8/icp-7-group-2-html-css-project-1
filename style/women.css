@@ -1,3 +1,9 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: #ffffff;
+}
+
 .colors {
     color: #3db6bc;
     color: #054b4e;
@@ -55,7 +61,7 @@
 .nav-options {
     font-size: 20px;
     text-decoration: none;
-    color: #000000;
+    color: black;
     margin: 0 10px;
     padding: 5px;
 }
@@ -72,7 +78,8 @@
     visibility: hidden;
     position: absolute;
     background-color: #efa9b1;
-    top: 10px;
+    margin: 0;
+    top: 20px;
     left: 10px;
     padding: 20px;
     list-style: none;
@@ -92,14 +99,15 @@
     color: white;
 }
 
+/* combination of selectors*/
 .nav-options-div:hover>.nav-options {
     color: white;
 }
 
 .footer {
-    background-color: #f0c14a;
-    margin-top: 0px;
+    background-color: #ffe6a7;
     padding: 10px 0;
+    margin-top: 20px;
 
 }
 
@@ -117,23 +125,27 @@
 
 .section-title {
     font-size: 20px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 800;
 }
 
 .about-links {
+
+    font-family: 'Times New Roman', Times, serif;
     text-decoration: none;
     color: black;
+    font-size: 17px;
 }
 
 .section-links {
     margin-left: 15px;
     color: black;
     font-size: 15px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
 }
 
-.about-links {
-    font-size: 17px;
+.mail-link {
     text-decoration: none;
     color: black;
 }
@@ -144,24 +156,184 @@ body {
     /* position: fixed; */
     margin: 0%;
 }
+.section-links :hover {
+    color: rgb(205, 58, 44);
+}
 
-.fashion-card {
+.copyright {
+    text-align: center;
+    color: black;
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 800;
+}
+
+
+@media screen and (max-width: 500px) {
+    .nav-bar {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        padding: 5px 0px;
+    }
+
+    .shop-logo {
+        margin-left: 0px;
+    }
+
+    .nav-options {
+        font-size: 15px;
+    }
+
+    .nav-options-div {
+        font-size: 15px;
+    }
+
+
+
+    .sections-container {
+        display: flex;
+        justify-content: space-between;
+        margin: 5px 50px;
+    }
+
+    .footer-sections {
+        margin-right: 10px;
+        width: 100px;
+    }
+
+    .section-title {
+        font-size: 12px;
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: 600;
+    }
+
+    .section-links {
+        font-size: 10px;
+    }
+
+    .about-links {
+        font-size: 10px;
+        text-decoration: none;
+        color: black;
+    }
+
+    .section-links {
+        padding: 0px;
+        margin-left: 0px;
+        font-size: 10px;
+        text-decoration: none;
+        color: black;
+    }
+
+    .copyright {
+        font-size: 12px;
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: 600;
+    }
+
+    .mail-link {
+        text-decoration: none;
+    }
+}
+
+@media screen and (min-width:501px) and (max-width:768px) {
+    .menu {
+        justify-content: end;
+    }
+
+    .shop-logo {
+        height: 50px;
+        margin: 2px;
+    }
+
+    .nav-options-div {
+        font-size: 15px;
+    }
+
+    .nav-options {
+        padding: 0px 0px;
+        font-size: 15px;
+    }
+
+    .sections-container {
+        display: flex;
+        justify-content: space-between;
+        margin: 5px 50px;
+    }
+
+    .footer-sections {
+        margin-right: 10px;
+        width: 100px;
+    }
+
+    .section-title {
+        font-size: 15px;
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: 600;
+    }
+
+    .section-links {
+        font-size: 15px;
+    }
+
+    .about-links {
+        font-size: 15px;
+        text-decoration: none;
+        color: black;
+    }
+
+    .section-links {
+        padding: 0px;
+        margin-left: 0px;
+        font-size: 15px;
+        text-decoration: none;
+        color: black;
+    }
+
+    .copyright {
+        font-size: 14px;
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: 600;
+    }
+
+    .mail-link {
+        text-decoration: none;
+    }
+}
+
+.fashion-card1 {
     width: 620px;
     height: 300px;
-    margin: 40px;
-    Position:relative;
-    Left: 60Px;
+    position: relative;
+    left: 30px;
+    margin: 10px;
 }
 
-.fashion-card:hover {
+.fashion-card1:hover {
     transition: 0.5s;
     box-shadow: 10px 10px 20px 1px #b3b3b3;
+    border-radius: 10px;
 }
 
+.fashion-card2 {
+    width: 630px;
+    height: 300px;
+    margin: 10px;
+    position: relative;
+    left: 30px;
+}
+
+.fashion-card2:hover {
+    transition: 0.5s;
+    box-shadow: 10px 10px 20px 1px #b3b3b3;
+    border-radius: 10px;
+}
 
 .Card {
     width: 150px;
-    height: 280px;
+    height: 275px;
     border: 2px solid #4d0039;
     border-radius: 10px;
     margin-top: 40px;
@@ -174,6 +346,11 @@ body {
     left: 100px;
     cursor:pointer;
     transition: 0.1s ease;
+    left: 110px;
+    left: 30px;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 .Card:hover {
@@ -185,6 +362,8 @@ body {
 
 .icon {
     height: 25px;
+    position: relative;
+    top: 5px;
 }
 
 
@@ -198,7 +377,7 @@ body {
 
 .product-title {
     font-size: 13px;
-    margin-left: 25px;
+    margin-left: 29px;
 }
 
 .product-title1 {
@@ -208,14 +387,14 @@ body {
 }
 
 .product-title2 {
-    font-size: 12px;
-    margin-left: 35px;
+    font-size: 15px;
+    margin-left: 32px;
 
 }
 
 .product-price {
-    padding-left: 20px;
-    font-size: 15px;
+    font-size: 14px;
+    text-align: center;
 }
 
 .Stars-image {
@@ -231,26 +410,27 @@ body {
     margin-left: 30px;
     text-align: center;
     padding: 10px 10px;
-    font-size: large;
+    font-size: 18px;
     box-shadow: 10px 10px 10px 2px #b3b3b3;
     background-color: white;
     color: #b30059;
     border-radius: 10px;
     position: relative;
-    left: 600px;
+    left: 500px;
 }
 
 .heading1:hover {
-    box-shadow: 10px 10px 10px 2px #b3b3b3;
+    box-shadow: 10px 10px 10px 1px #cceeff;
     background-color: white;
     color: #004080;
+
 }
 
 
 .btn-buy-now {
     position: relative;
     bottom: 15px;
-    left: 35px;
+    left: 39px;
     background-color: #6699ff;
     border-color: #0055ff;
     color: white;
@@ -267,22 +447,25 @@ body {
 .line {
     border: dashed;
     color: #f2f2f2;
-    Position:relative;
-    Left :40Px;
+    Position: relative;
+    Left: 0Px;
 }
 
 .btn-1 {
     background-color: #e6e6e6;
     border-radius: 2px;
     padding: 10px 10px;
-    font-size: 15px;
-    margin-left: 25px;
+    font-size: 18px;
+    margin-left: 20px;
     padding-bottom: 18px;
     width: 300px;
     border: none;
+    align-items: center;
     text-align: center;
-    Position:relative;
-    Left :90Px;
+    Position: relative;
+    Left: 17Px;
+    justify-content: space-between;
+    color: #995c00;
 }
 @media screen and (min-width:501px) and (max-width:768px) {
     .main {
@@ -293,17 +476,24 @@ body {
         margin: 5px;
         font-size: 15px;
     }
+
+.btn-1:hover {
+    border-radius: 10px;
+    border-color: white;
+    transition: 0.5s;
+    color: red;
+    box-shadow: 10px 10px 10px 1px #f2f2f2;
+}
 .link {
     text-decoration: none;
-    margin-left: 90px;
     position: relative;
-    left: 500px;
+    left: 440px;
     width: 230px;
     text-align: center;
     padding: 10px 10px;
-    font-size: large;
-    background-color:white;
-    color:blue;
+    font-size: 24px;
+    background-color: white;
+    color: blue;
     border-radius: 10px;
 }
 .linkk{
@@ -377,3 +567,4 @@ background-color: #ffffff;
 color: #e60073;
 border-color: white;
 }
+

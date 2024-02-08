@@ -1,7 +1,7 @@
 body {
     margin: 0px;
     padding: 0px;
-    background-color: #efa9b1;
+    background-color: #ffffff;
 }
 
 .colors {
@@ -11,12 +11,12 @@ body {
     color: white;
     color: #efa9b1;
     color: #f0c14a;
-    color:#e1b9b9;
+    color: #e1b9b9;
 }
 
 
 .nav-bar {
-    background-color:#efa9b1;
+    background-color: #efa9b1;
     display: flex;
     justify-content: space-between;
     padding: 5px 80px;
@@ -50,6 +50,7 @@ body {
     background-color: transparent;
     color: white;
 }
+
 .special-option {
     padding: 5px 10px;
     font-size: 20px;
@@ -66,8 +67,9 @@ body {
 .more-options {
     position: relative;
 }
+
 .more-options-list {
-    visibility: hidden ;
+    visibility: hidden;
     position: absolute;
     background-color: #efa9b1;
     margin: 0;
@@ -77,17 +79,19 @@ body {
     list-style: none;
     border-radius: 10px;
 }
-.more-options:hover > .more-options-list{
-    visibility:visible;
-}
-.list-anchors{
-    text-decoration: none;
-    color:black;
-}
-.list-anchors:hover{
-    color: white;
+
+.more-options:hover>.more-options-list {
+    visibility: visible;
 }
 
+.list-anchors {
+    text-decoration: none;
+    color: black;
+}
+
+.list-anchors:hover {
+    color: white;
+}
 
 /* combination of selectors*/
 .nav-options-div:hover>.nav-options {
@@ -95,8 +99,9 @@ body {
 }
 
 .footer {
-    background-color: #f0c14a;
+    background-color: #ffe6a7;
     padding: 10px 0;
+    margin-top: 20px;
 
 }
 
@@ -114,24 +119,174 @@ body {
 
 .section-title {
     font-size: 20px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 800;
 }
 
 .about-links {
+
+    font-family: 'Times New Roman', Times, serif;
     text-decoration: none;
     color: black;
+    font-size: 17px;
 }
 
 .section-links {
     margin-left: 15px;
     color: black;
     font-size: 15px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-weight: 200;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
 }
 
-.about-links {
-    font-size: 17px;
+.mail-link {
     text-decoration: none;
     color: black;
+}
+
+.section-links :hover {
+    color: rgb(205, 58, 44);
+}
+
+.copyright {
+    text-align: center;
+    color: black;
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 800;
+}
+
+
+@media screen and (max-width: 500px) {
+    .nav-bar {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        padding: 5px 0px;
+    }
+
+    .shop-logo {
+        margin-left: 0px;
+    }
+
+    .nav-options {
+        font-size: 15px;
+    }
+
+    .nav-options-div {
+        font-size: 15px;
+    }
+
+
+
+    .sections-container {
+        display: flex;
+        justify-content: space-between;
+        margin: 5px 50px;
+    }
+
+    .footer-sections {
+        margin-right: 10px;
+        width: 100px;
+    }
+
+    .section-title {
+        font-size: 12px;
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: 600;
+    }
+
+    .section-links {
+        font-size: 10px;
+    }
+
+    .about-links {
+        font-size: 10px;
+        text-decoration: none;
+        color: black;
+    }
+
+    .section-links {
+        padding: 0px;
+        margin-left: 0px;
+        font-size: 10px;
+        text-decoration: none;
+        color: black;
+    }
+
+    .copyright {
+        font-size: 12px;
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: 600;
+    }
+
+    .mail-link {
+        text-decoration: none;
+    }
+}
+
+@media screen and (min-width:501px) and (max-width:768px) {
+    .menu {
+        justify-content: end;
+    }
+
+    .shop-logo {
+        height: 50px;
+        margin: 2px;
+    }
+
+    .nav-options-div {
+        font-size: 15px;
+    }
+
+    .nav-options {
+        padding: 0px 0px;
+        font-size: 15px;
+    }
+
+    .sections-container {
+        display: flex;
+        justify-content: space-between;
+        margin: 5px 50px;
+    }
+
+    .footer-sections {
+        margin-right: 10px;
+        width: 100px;
+    }
+
+    .section-title {
+        font-size: 15px;
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: 600;
+    }
+
+    .section-links {
+        font-size: 15px;
+    }
+
+    .about-links {
+        font-size: 15px;
+        text-decoration: none;
+        color: black;
+    }
+
+    .section-links {
+        padding: 0px;
+        margin-left: 0px;
+        font-size: 15px;
+        text-decoration: none;
+        color: black;
+    }
+
+    .copyright {
+        font-size: 14px;
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: 600;
+    }
+
+    .mail-link {
+        text-decoration: none;
+    }
 }

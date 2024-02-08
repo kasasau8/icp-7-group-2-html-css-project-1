@@ -1,22 +1,198 @@
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: #ffffff;
+}
 .heading {
-    background-color: #ff0066;
+    background-color: #c289a0;
     font-size: 50px;
     text-align: center;
 }
+.heading1 {
+    width: 230px;
+    margin-left: 20px;
+    text-align: center;
+    padding: 8px 8px;
+    font-size: large;
+    box-shadow: 10px 10px 10px 2px #b3b3b3;
+    background-color: white;
+    color: #b30059;
+    border-radius: 10px;
+    position: relative;
+    left: 600px;
+    left: 370px;
+}
+
+.heading1:hover {
+    box-shadow: 10px 10px 10px 1px #cceeff ;
+    background-color: white;
+    color: #004080;
+    
+}
 .container{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
     height: fit-content;
     
 }
-.container-1{
-    display: flex;
-    justify-content: space-around;
-    border-style: solid;
-    margin: 15px;
-    height: 600px;
-    width: fit-content;
+
+.banner-card{
+    width: 380px;
+    height: 400px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+        margin-left: 20px;
+        margin-right: 20px;
+        border-color: black;
+        border-radius: 10px 10px 10px;
+        
 }
+.banner-card:hover{
+    transition: 0.5s;
+    box-shadow: 10px 10px 20px 1px #927676;
+}
+.banner-card1{
+    
+        width: 800px;
+        height; 80px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-left: 20px;
+        margin-right: 20px;
+        border-radius: 10px 10px 10px;
+        
+}
+.banner-card1:hover{
+    transition: 0.5s;
+    box-shadow: 10px 10px 20px 1px #514949;
+}
+
+
+
+.Card {
+    width: 150px;
+    height: 280px;
+    border: 2px solid #4d0039;
+    border-radius: 10px;
+    margin-top: 40px;
+    margin-left: 70px;
+    box-shadow: 10px 10px 20px 1px #b3b3b3;
+    display: inline-block;
+    position: relative;
+    bottom: 20px;
+    position: relative;
+    left: 30px;
+    background-color: white;
+}
+
+.Card:hover {
+    transition: 0.5s;
+    border: 2px solid red;
+    box-shadow: 10px 10px 10px 2px #b3b3b3;
+}
+.cloth {
+    width: 150px;
+    height: 130px;
+    border-radius: 10px 10px 10px;
+    display: inline-block;
+}
+
+.product-title {
+    font-size: 13px;
+    margin-left: 25px;
+}
+
+.product-price {
+    padding-left: 20px;
+    font-size: 15px;
+}
+
+.Stars {
+    width: 80px;
+    border-radius: 0;
+    padding-left: 5px;
+    position: relative;
+    bottom: 15px;
+}
+.buy-btn {
+   
+    position: relative;
+    bottom: 15px;
+    left: 35px;
+    background-color: #6699ff;
+    border-color: #0055ff;
+    color: white;
+    border-radius: 10px;
+    padding: 6px 6px 6px 6px;
+    font-size: 12px;
+}
+
+.buy-btn:hover {
+    background-color: #ffffff;
+    color: #e60073;
+    border-color: white;
+}
+.line
+{
+    height: 0.2px;
+    
+    width: 90%;
+    color: black;
+}
+
+
+.icon {
+    height: 20px;
+    position: relative;
+    top: 5px;
+}
+.btn-1 {
+    background-color: #e6e6e6;
+    border-radius: 2px;
+    padding: 5px 5px;
+    font-size: 15px;
+    margin-left: 8px;
+    padding-bottom: 12px;
+    width: 240px;
+    border: none;
+    align-items: center;
+    text-align: center;
+    Position: relative;
+    Left: 35Px;
+    justify-content: space-between;
+    color:#995c00 ;
+   
+
+}
+
+.btn-1:hover {
+    border-radius: 10px;
+    border-color: white;
+    transition: 0.5s;
+    color: red;
+    box-shadow: 10px 10px 10px 1px #f2f2f2;
+   
+}
+
+/*check*/
+@media screen and (max-width: 500px) {
+    .nav-bar {
+        flex-direction: column;
+    }
+
+    .shop-logo {
+        margin-left: 100px;
+    }
+
+    .menu {
+        font-size: 5px;
+    }
+
+}
+
+/*
 .container-2{
     display: flex;
     justify-content: space-around;
@@ -26,19 +202,15 @@
     width: fit-content;
 
 }
-.pro-price{
-    font-size: 30px;
-}
-.banner-card{
-width: 120%;
-height: 400px;
-margin: 20px;
-}
-.banner-card1{
-    width: 120px;
-    height: 80px;
-    margin: 20px;
-    
+.container-1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    border-style: dashed;
+    margin: 15px;
+    height: 400px;
+    width: 1500px;
+    padding-right: 30px;
 }
 .Card {
     position: relative;
@@ -87,3 +259,9 @@ margin: 20px;
     box-shadow: #040405;
 
 }
+.pro-price{
+    font-size: 30px;
+}*/
+
+
+
