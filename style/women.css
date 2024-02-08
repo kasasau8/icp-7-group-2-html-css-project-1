@@ -172,12 +172,15 @@ body {
     bottom: 20px;
     position: relative;
     left: 100px;
+    cursor:pointer;
+    transition: 0.1s ease;
 }
 
 .Card:hover {
     transition: 0.5s;
     border: 2px solid red;
     box-shadow: 10px 10px 10px 2px #b3b3b3;
+    transform: scale(1.15);
 }
 
 .icon {
