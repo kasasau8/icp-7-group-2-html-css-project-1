@@ -22,6 +22,7 @@ body {
 .nav-bar {
     background-color: #efa9b1;
     display: flex;
+
     justify-content: space-between;
     padding: 5px 80px;
 }
@@ -31,6 +32,7 @@ body {
     margin: 5px;
 }
 
+  
 .menu {
     font-family: 'Times New Roman', Times, serif;
     font-size: 15px;
@@ -67,7 +69,11 @@ body {
     margin: 0 10px;
     padding: 5px;
 }
-
+@media screen and (max-width: 500px) {
+    .main {
+        padding-bottom: 20px;
+    }
+}
 .more-options {
     position: relative;
 }
@@ -148,6 +154,12 @@ body {
     color: black;
 }
 
+body {
+
+    padding: 0px;
+    /* position: fixed; */
+    margin: 0%;
+}
 .section-links :hover {
     color: rgb(205, 58, 44);
 }
@@ -335,18 +347,21 @@ body {
     position: relative;
     bottom: 20px;
     position: relative;
+    left: 100px;
+    cursor:pointer;
+    transition: 0.1s ease;
     left: 110px;
     left: 30px;
     align-items: center;
     flex-wrap: wrap;
     justify-content: space-around;
-
 }
 
 .Card:hover {
     transition: 0.5s;
     border: 2px solid red;
     box-shadow: 10px 10px 10px 2px #b3b3b3;
+    transform: scale(1.15);
 }
 
 .icon {
@@ -423,6 +438,7 @@ body {
     background-color: #6699ff;
     border-color: #0055ff;
     color: white;
+    cursor: pointer;
     border-radius: 10px;
 }
 
@@ -455,6 +471,15 @@ body {
     justify-content: space-between;
     color: #995c00;
 }
+@media screen and (min-width:501px) and (max-width:768px) {
+    .main {
+        padding-bottom: 10px;
+    }
+}
+    .banner-sec-title {
+        margin: 5px;
+        font-size: 15px;
+    }
 
 .btn-1:hover {
     border-radius: 10px;
@@ -463,7 +488,6 @@ body {
     color: red;
     box-shadow: 10px 10px 10px 1px #f2f2f2;
 }
-
 .link {
     text-decoration: none;
     position: relative;
@@ -475,5 +499,76 @@ body {
     background-color: white;
     color: blue;
     border-radius: 10px;
-    margin: 30px;
 }
+.linkk{
+        
+    text-decoration: none;
+    margin-left: 20px;
+    width: 230px;
+    text-align: center;
+    padding: 10px 10px;
+    font-size: large;
+    background-color: white;
+    color: blue;
+    border-radius: 10px;
+    text-align: center;
+}
+.padding-margin{
+ 
+text-align: center;
+ 
+}
+.Cards{
+text-align: center;
+width: 140px;
+height: 270px;
+border: 2px solid #4d0039;
+border-radius: 10px;
+margin-top: 40px;
+margin-left: 70px;
+box-shadow: 10px 10px 20px 1px #b3b3b3;
+display: inline-block;
+justify-content:space-between;
+}
+.Cards:hover {
+transition: 0.5s;
+border: 2px solid red;
+box-shadow: 10px 10px 10px 2px #b3b3b3;
+}
+.heading-wear {
+width: 230px;
+margin-left: 600px;
+text-align: center;
+padding: 8px 8px;
+font-size: large;
+box-shadow: 10px 10px 10px 2px #b3b3b3;
+background-color: white;
+color: #b30059;
+border-radius: 10px;
+
+}
+.heading-wear:hover {
+box-shadow: 10px 10px 10px 2px #b3b3b3;
+background-color: white;
+color: #004080;
+}
+.product-ttl{
+font-size: 13px;
+}
+.product-cost{
+font-size: 13px;
+text-align: center;
+
+}
+.buy-now-btn{
+background-color: #6699ff;
+border-color: #0055ff;
+color: white;
+border-radius: 10px;
+}
+.buy-now-btn:hover{
+background-color: #ffffff;
+color: #e60073;
+border-color: white;
+}
+
