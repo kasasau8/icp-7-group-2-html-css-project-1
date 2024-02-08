@@ -1,9 +1,13 @@
+
 body {
     margin: 0px;
     padding: 0px;
     background-color: #ffffff;
 }
-
+.box-1{
+    margin: 0 50px;
+    
+}
 .colors {
     color: #3db6bc;
     color: #054b4e;
