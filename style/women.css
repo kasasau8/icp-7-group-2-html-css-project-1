@@ -18,6 +18,7 @@ body {
 .nav-bar {
     background-color: #efa9b1;
     display: flex;
+
     justify-content: space-between;
     padding: 5px 80px;
 }
@@ -27,6 +28,7 @@ body {
     margin: 5px;
 }
 
+  
 .menu {
     font-family: 'Times New Roman', Times, serif;
     font-size: 15px;
@@ -63,7 +65,11 @@ body {
     margin: 0 10px;
     padding: 5px;
 }
-
+@media screen and (max-width: 500px) {
+    .main {
+        padding-bottom: 20px;
+    }
+}
 .more-options {
     position: relative;
 }
@@ -93,21 +99,6 @@ body {
     color: white;
 }
 
-@media screen and (max-width: 500px) {
-    .nav-bar {
-        flex-direction: column;
-    }
-
-    .shop-logo {
-        margin-left: 100px;
-    }
-
-    .menu {
-        font-size: 5px;
-    }
-
-}
-
 /* combination of selectors*/
 .nav-options-div:hover>.nav-options {
     color: white;
@@ -116,6 +107,8 @@ body {
 .footer {
     background-color: #ffe6a7;
     padding: 10px 0;
+    margin-top: 20px;
+
 }
 
 .sections-container {
@@ -141,6 +134,7 @@ body {
     font-family: 'Times New Roman', Times, serif;
     text-decoration: none;
     color: black;
+    font-size: 17px;
 }
 
 .section-links {
@@ -148,36 +142,175 @@ body {
     color: black;
     font-size: 15px;
     font-family: 'Times New Roman', Times, serif;
-    ;
     font-weight: 600;
 }
 
-.section-links :hover {
-    color: rgb(205, 58, 44);
-}
-
-.about-links {
-    font-size: 17px;
+.mail-link {
     text-decoration: none;
     color: black;
 }
 
+body {
+
+    padding: 0px;
+    /* position: fixed; */
+    margin: 0%;
+}
+.section-links :hover {
+    color: rgb(205, 58, 44);
+}
+
+.copyright {
+    text-align: center;
+    color: black;
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 800;
+}
+
+
+@media screen and (max-width: 500px) {
+    .nav-bar {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        padding: 5px 0px;
+    }
+
+    .shop-logo {
+        margin-left: 0px;
+    }
+
+    .nav-options {
+        font-size: 15px;
+    }
+
+    .nav-options-div {
+        font-size: 15px;
+    }
+
+
+
+    .sections-container {
+        display: flex;
+        justify-content: space-between;
+        margin: 5px 50px;
+    }
+
+    .footer-sections {
+        margin-right: 10px;
+        width: 100px;
+    }
+
+    .section-title {
+        font-size: 12px;
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: 600;
+    }
+
+    .section-links {
+        font-size: 10px;
+    }
+
+    .about-links {
+        font-size: 10px;
+        text-decoration: none;
+        color: black;
+    }
+
+    .section-links {
+        padding: 0px;
+        margin-left: 0px;
+        font-size: 10px;
+        text-decoration: none;
+        color: black;
+    }
+
+    .copyright {
+        font-size: 12px;
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: 600;
+    }
+
+    .mail-link {
+        text-decoration: none;
+    }
+}
+
+@media screen and (min-width:501px) and (max-width:768px) {
+    .menu {
+        justify-content: end;
+    }
+
+    .shop-logo {
+        height: 50px;
+        margin: 2px;
+    }
+
+    .nav-options-div {
+        font-size: 15px;
+    }
+
+    .nav-options {
+        padding: 0px 0px;
+        font-size: 15px;
+    }
+
+    .sections-container {
+        display: flex;
+        justify-content: space-between;
+        margin: 5px 50px;
+    }
+
+    .footer-sections {
+        margin-right: 10px;
+        width: 100px;
+    }
+
+    .section-title {
+        font-size: 15px;
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: 600;
+    }
+
+    .section-links {
+        font-size: 15px;
+    }
+
+    .about-links {
+        font-size: 15px;
+        text-decoration: none;
+        color: black;
+    }
+
+    .section-links {
+        padding: 0px;
+        margin-left: 0px;
+        font-size: 15px;
+        text-decoration: none;
+        color: black;
+    }
+
+    .copyright {
+        font-size: 14px;
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: 600;
+    }
+
+    .mail-link {
+        text-decoration: none;
+    }
+}
+
 .fashion-card1 {
-    width: 490px;
-    height: 250px;
+    width: 620px;
+    height: 300px;
     position: relative;
     left: 30px;
     margin: 10px;
 }
 
-
-.fashion-card {
-    width: 620px;
-    height: 300px;
-    margin: 40px;
-    Position:relative;
-    Left: 60Px;
-}
 .fashion-card1:hover {
     transition: 0.5s;
     box-shadow: 10px 10px 20px 1px #b3b3b3;
@@ -185,8 +318,8 @@ body {
 }
 
 .fashion-card2 {
-    width: 490px;
-    height: 250px;
+    width: 630px;
+    height: 300px;
     margin: 10px;
     position: relative;
     left: 30px;
@@ -199,33 +332,36 @@ body {
 }
 
 .Card {
-    width: 140px;
-    height: 270px;
+    width: 150px;
+    height: 275px;
     border: 2px solid #4d0039;
     border-radius: 10px;
     margin-top: 40px;
-    margin-left: 20px;
+    margin-left: 50px;
     box-shadow: 10px 10px 20px 1px #b3b3b3;
     display: inline-block;
     position: relative;
     bottom: 20px;
     position: relative;
+    left: 100px;
+    cursor:pointer;
+    transition: 0.1s ease;
     left: 110px;
     left: 30px;
     align-items: center;
     flex-wrap: wrap;
     justify-content: space-around;
-
 }
 
 .Card:hover {
     transition: 0.5s;
     border: 2px solid red;
     box-shadow: 10px 10px 10px 2px #b3b3b3;
+    transform: scale(1.15);
 }
 
 .icon {
-    height: 20px;
+    height: 25px;
     position: relative;
     top: 5px;
 }
@@ -233,7 +369,7 @@ body {
 
 
 .cloth-image {
-    width: 140px;
+    width: 150px;
     height: 130px;
     border-radius: 10px 5px 0px;
     display: inline-block;
@@ -241,7 +377,7 @@ body {
 
 .product-title {
     font-size: 13px;
-    margin-left: 25px;
+    margin-left: 29px;
 }
 
 .product-title1 {
@@ -251,14 +387,13 @@ body {
 }
 
 .product-title2 {
-    font-size: 12px;
-    margin-left: 35px;
+    font-size: 15px;
+    margin-left: 32px;
 
 }
 
 .product-price {
-    padding-left: 20px;
-    font-size: 13px;
+    font-size: 14px;
     text-align: center;
 }
 
@@ -272,36 +407,35 @@ body {
 
 .heading1 {
     width: 230px;
-    margin-left: 20px;
+    margin-left: 30px;
     text-align: center;
-    padding: 8px 8px;
-    font-size: large;
+    padding: 10px 10px;
+    font-size: 18px;
     box-shadow: 10px 10px 10px 2px #b3b3b3;
     background-color: white;
     color: #b30059;
     border-radius: 10px;
     position: relative;
-    left: 600px;
-    left: 370px;
+    left: 500px;
 }
 
 .heading1:hover {
-    box-shadow: 10px 10px 10px 1px #cceeff ;
+    box-shadow: 10px 10px 10px 1px #cceeff;
     background-color: white;
     color: #004080;
-    
+
 }
 
 
 .btn-buy-now {
     position: relative;
     bottom: 15px;
-    left: 35px;
+    left: 39px;
     background-color: #6699ff;
     border-color: #0055ff;
     color: white;
+    cursor: pointer;
     border-radius: 10px;
-    
 }
 
 .btn-buy-now:hover {
@@ -320,21 +454,28 @@ body {
 .btn-1 {
     background-color: #e6e6e6;
     border-radius: 2px;
-    padding: 5px 5px;
-    font-size: 15px;
-    margin-left: 8px;
-    padding-bottom: 12px;
-    width: 240px;
+    padding: 10px 10px;
+    font-size: 18px;
+    margin-left: 20px;
+    padding-bottom: 18px;
+    width: 300px;
     border: none;
     align-items: center;
     text-align: center;
     Position: relative;
-    Left: 35Px;
+    Left: 17Px;
     justify-content: space-between;
-    color:#995c00 ;
-   
-
+    color: #995c00;
 }
+@media screen and (min-width:501px) and (max-width:768px) {
+    .main {
+        padding-bottom: 10px;
+    }
+}
+    .banner-sec-title {
+        margin: 5px;
+        font-size: 15px;
+    }
 
 .btn-1:hover {
     border-radius: 10px;
@@ -342,15 +483,23 @@ body {
     transition: 0.5s;
     color: red;
     box-shadow: 10px 10px 10px 1px #f2f2f2;
-   
 }
-
 .link {
     text-decoration: none;
-    margin-left: 20px;
     position: relative;
-    left: 500px;
-    left: 350px;
+    left: 440px;
+    width: 230px;
+    text-align: center;
+    padding: 10px 10px;
+    font-size: 24px;
+    background-color: white;
+    color: blue;
+    border-radius: 10px;
+}
+.linkk{
+        
+    text-decoration: none;
+    margin-left: 20px;
     width: 230px;
     text-align: center;
     padding: 10px 10px;
@@ -358,60 +507,64 @@ body {
     background-color: white;
     color: blue;
     border-radius: 10px;
-}
-
-.social-media {
     text-align: center;
-    color: #800040;
-    font-size: 30px;
+}
+.padding-margin{
+ 
+text-align: center;
+ 
+}
+.Cards{
+text-align: center;
+width: 140px;
+height: 270px;
+border: 2px solid #4d0039;
+border-radius: 10px;
+margin-top: 40px;
+margin-left: 70px;
+box-shadow: 10px 10px 20px 1px #b3b3b3;
+display: inline-block;
+justify-content:space-between;
+}
+.Cards:hover {
+transition: 0.5s;
+border: 2px solid red;
+box-shadow: 10px 10px 10px 2px #b3b3b3;
+}
+.heading-wear {
+width: 230px;
+margin-left: 600px;
+text-align: center;
+padding: 8px 8px;
+font-size: large;
+box-shadow: 10px 10px 10px 2px #b3b3b3;
+background-color: white;
+color: #b30059;
+border-radius: 10px;
+
+}
+.heading-wear:hover {
+box-shadow: 10px 10px 10px 2px #b3b3b3;
+background-color: white;
+color: #004080;
+}
+.product-ttl{
+font-size: 13px;
+}
+.product-cost{
+font-size: 13px;
+text-align: center;
+
+}
+.buy-now-btn{
+background-color: #6699ff;
+border-color: #0055ff;
+color: white;
+border-radius: 10px;
+}
+.buy-now-btn:hover{
+background-color: #ffffff;
+color: #e60073;
+border-color: white;
 }
 
-.social-logo1 {
-    width: 50px;
-    position: relative;
-    left: 390px;
-    bottom: 5px;
-    margin-left: 10px;
-}
-.social-logo1:hover {
-    border-radius: 50%;
-    box-shadow: 5px 5px 20px 2px #b3b3b3; 
-    
-}
-.social-logo2 {
-    width: 60px;
-    position: relative;
-    left: 390px;
-    bottom: 0px;
-    margin-left: 10px;
-}
-.social-logo2:hover {
-    border-radius: 50%;
-    box-shadow: 5px 5px 20px 2px #b3b3b3; 
-    
-}
-.social-logo3 {
-    width: 55px;
-    position: relative;
-    left: 390px;
-    bottom: 3px;
-    margin-left: 10px;
-
-}
-.social-logo3:hover {
-    border-radius: 50%;
-    box-shadow: 5px 5px 20px 2px #b3b3b3; 
-    
-}
-.social-logo4 {
-    width: 50px;
-    position: relative;
-    left: 390px;
-    bottom: 5px;
-    margin-left: 10px;
-}
-.social-logo4:hover {
-    border-radius: 50%;
-    box-shadow: 5px 5px 20px 2px #b3b3b3; 
-    
-}
