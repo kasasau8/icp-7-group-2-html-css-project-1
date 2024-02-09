@@ -307,7 +307,7 @@ body {
     width: 620px;
     height: 300px;
     position: relative;
-    left: 30px;
+    left: 220px;
     margin: 10px;
 }
 
@@ -315,14 +315,15 @@ body {
     transition: 0.5s;
     box-shadow: 10px 10px 20px 1px #b3b3b3;
     border-radius: 10px;
+    
 }
 
 .fashion-card2 {
     width: 630px;
     height: 300px;
+    position:relative;
+    left:220px;
     margin: 10px;
-    position: relative;
-    left: 30px;
 }
 
 .fashion-card2:hover {
@@ -337,13 +338,13 @@ body {
     border: 2px solid #4d0039;
     border-radius: 10px;
     margin-top: 40px;
-    margin-left: 50px;
+    margin-left: 90px;
     box-shadow: 10px 10px 20px 1px #b3b3b3;
     display: inline-block;
     position: relative;
     bottom: 20px;
     position: relative;
-    left: 100px;
+    left: 110px;
     cursor:pointer;
     transition: 0.1s ease;
     left: 110px;
@@ -416,7 +417,7 @@ body {
     color: #b30059;
     border-radius: 10px;
     position: relative;
-    left: 500px;
+    left: 700px;
 }
 
 .heading1:hover {
@@ -567,4 +568,3 @@ background-color: #ffffff;
 color: #e60073;
 border-color: white;
 }
-
