@@ -11,7 +11,7 @@ body {
 }
 .heading1 {
     width: 230px;
-    margin-left: 20px;
+    margin-left: 200px;
     text-align: center;
     padding: 8px 8px;
     font-size: large;
@@ -153,7 +153,7 @@ body {
     border-radius: 2px;
     padding: 5px 5px;
     font-size: 15px;
-    margin-left: 8px;
+    margin-left: 100px;
     padding-bottom: 12px;
     width: 240px;
     border: none;
