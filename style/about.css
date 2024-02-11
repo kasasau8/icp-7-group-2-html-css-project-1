@@ -362,3 +362,95 @@ body {
 .shop-logo{
     margin: 20px;
 }
+@media screen and (max-width: 500px) {
+    .fam-pic{
+        height:200px ;
+        width: 400px;
+        padding: 30px 30px;
+    
+    }
+    .about-us{
+        width: 300px;
+        height: 220px;
+        margin:20px 35px;
+        padding: 10px 25px;
+        text-align: left;
+     
+     }
+     .about-heading{
+        text-align: center;
+        padding-bottom:30px ;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 20px;
+    }
+    .about-text{
+        text-align: justify;
+        font-size: 15px;
+    
+    }
+    .store-info{
+        height: 500px;
+        width: 200px; 
+        margin:50px 45px;
+        flex-direction:column;
+        padding: 0px 20px;
+        
+    }
+    .shop-logo{
+       margin-left: 300px;
+    }
+    .about{
+        display: flex;
+        flex-direction:column;
+        text-align: left;
+        justify-content: left;
+       
+    }
+    .shop-description{
+        margin-left: 10px;
+        margin: 10px;
+    }
+    .shop-logo{
+        margin-left: 30px;
+     }
+ 
+}
+
+@media screen and (min-width:501px) and (max-width:768px) {
+    .fam-pic{
+        height:400px ;
+        width: 700px;
+        padding: 50px 22px;
+    
+    }
+    .about-us{
+        width: 700px;
+        margin:20px 5px;
+        padding: 10px 25px;
+        text-align: center;
+     
+     }
+     .about-heading{
+        text-align: center;
+        padding-bottom:30px ;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 20px;
+    }
+    .about-text{
+        text-align: justify;
+        font-size: 15px;
+    
+    }
+    .store-info{
+        height: 200px;
+        width: 700px; 
+        margin:50px 5px;
+        flex-direction:column;
+        padding: 25px;
+        
+    }
+    .shop-logo{
+       margin-left: 300px;
+    }
+
+}
