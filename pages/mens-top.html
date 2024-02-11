@@ -102,7 +102,7 @@
 }
 
 .footer {
-    background-color: #f0c14a;
+    background-color: #efa9b1;
     margin-top: 0px;
     padding: 10px 0;
 
@@ -174,7 +174,7 @@ body {
     position: relative;
     bottom: 20px;
     position: relative;
-    left: 30px;
+    left: 0px;
 }
 
 .Card:hover {
@@ -292,6 +292,124 @@ body {
     color:blue;
     border-radius: 10px;
 }
+.link2{ text-decoration: none;
+    position: relative;
+    left: 440px;
+    width: 230px;
+    text-align: center;
+    padding: 10px 10px;
+    font-size: 24px;
+    background-color: white;
+    color: blue;
+    border-radius: 10px;
+}
+@media screen and (max-width: 500px){
+    .icon-div{
+        margin-left: 20px;
+        margin-top: 0px;
+    }
+    .fashion-card{
+        margin-top: 5px;
+        width: 92%;
+    }
+    .fashion-card2{
+        visibility: hidden;
+        height: 0px;
+        width: 0px;
+    }
+    .link2{
+        left: 40px;
+   
+    }
+    .btn-1{
+        width: 200px;
+        margin: 10px;
+        position: relative;
+        left: 2px;
+        justify-content: space-around;
+    }
+    .heading1{
+        align-items: center;
+        left: 110px;
+    }
+    .main-div{
+        width: 100%;
+        margin: 0px;
+    }
+    .card{
+         justify-content: space-around;
+        position: relative;
+        left: auto;
+        width: 150px;
+        margin-left: 40px;
+    }
+
+    .nav-bar {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        padding: 5px 0px;
+    }
+
+    .shop-logo {
+        margin-left: 0px;
+    }
+
+    .nav-options {
+        font-size: 15px;
+    }
+
+    .nav-options-div {
+        font-size: 15px;
+    }
+
+
+
+    .sections-container {
+        display: flex;
+        justify-content: space-between;
+        margin: 5px 50px;
+    }
+
+    .footer-sections {
+        margin-right: 10px;
+        width: 100px;
+    }
+
+    .section-title {
+        font-size: 12px;
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: 600;
+    }
+
+    .section-links {
+        font-size: 10px;
+    }
+
+    .about-links {
+        font-size: 10px;
+        text-decoration: none;
+        color: black;
+    }
+
+    .section-links {
+        padding: 0px;
+        margin-left: 0px;
+        font-size: 10px;
+        text-decoration: none;
+        color: black;
+    }
+
+    .copyright {
+        font-size: 12px;
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: 600;
+    }
+
+    .mail-link {
+        text-decoration: none;
+    }
+}
 
 
 </style>
@@ -304,9 +422,9 @@ body {
                 <img class="shop-logo" src="../images/index/shop-logo.png" />
             </div>
             <div class="menu">
-                <div class="nav-options-div"><a class="nav-options" href="./pages/mens.html">Mens</a></div>
-                <div class="nav-options-div"><a class="nav-options" href="./pages/womens.html">Women</a></div>
-                <div class="nav-options-div"><a class="nav-options" href="./pages/kids.html">Kids</a></div>
+                <div class="nav-options-div"><a class="nav-options" href="../index.html">Home</a></div>
+                <div class="nav-options-div"><a class="nav-options" href="./womens.html">Women</a></div>
+                <div class="nav-options-div"><a class="nav-options" href="./kids.html">Kids</a></div>
                 <div class="nav-options-div special-option"> <i class="fa-solid fa-cart-shopping"></i> </div>
                 <div class="nav-options-div  special-option more-options"><i class="fa-solid fa-ellipsis-vertical"></i>
                     <ul class="more-options-list">
@@ -320,19 +438,20 @@ body {
 
 
     <img src="../images/mens-top/BANNER1.webp" class="fashion-card">
-    <img src="../images/mens-top/BANNER2.jpg" class="fashion-card">
-    <div>
+    <img src="../images/mens-top/BANNER2.jpg" class="fashion-card2">
+    <div class="icon-div">
         <button class="btn-1"><img src="../women icon/check-mark.png" class="icon"> &nbsp;&nbsp;Quality Product</button>
         <button class="btn-1"><img src="../women icon/delivery-truck.png" class="icon">&nbsp;&nbsp;Free Shipping</button>
         <button class="btn-1"><img src="../women icon/telephone.png" class="icon"> &nbsp;&nbsp;14 Days Return</button>
-        <button class="btn-1"><img src="../women icon/transfer (1).png" class="icon">&nbsp;&nbsp; 24/7 Support</button>
-        <hr class="line">
-        
+        <button class="btn-1"><img src="../women icon/transfer (1).png" class="icon">&nbsp;&nbsp; 24/7 Support</button>   
     </div>
-    <br>
+    <hr class="line">
+    <a class="link2" href="./mens.html" ">Mens Topwear</a>
+        <a  class="link2" href="./mens-bottom.html">Mens Bottomwear</a>
     <!-- // Kurtis COLLECTION // -->
     <hr class="line">
     <h2 class="heading1">KURTIS &nbsp; COLLECTION</h2>
+    <div class="main-div">
     <div class="Card">
         <img src="../images/mens-top/m3.webp" class="cloth-image">
         <h3 class="product-title"><b>"High Neck"</b></h3>
@@ -538,7 +657,7 @@ body {
         <img src="../images/womens/stars.png" alt="Stars" class="Stars-image">
 
         <button class="btn-buy-now">Buy Now</button>
-
+    </div>
     </div>
 
     <footer class="footer">

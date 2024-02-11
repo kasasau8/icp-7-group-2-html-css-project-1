@@ -567,3 +567,34 @@ background-color: #ffffff;
 color: #e60073;
 border-color: white;
 }
+@media screen and (max-width: 500px){
+    .fashion-card1 {
+        width: 430px;
+        height: 200px;
+      position: relative;
+      left: 1px;
+    }
+
+    .fashion-card2 {
+        width: 430px;
+        height: 200px;
+        position: relative;
+        left: 0px;
+    }
+    .padding-margin{
+        
+        margin-left: 20px;
+     
+   }
+    .btn-1 {
+        width: 200px;
+        margin: 10px;
+        position: relative;
+        left: 2px;
+        justify-content: space-around;
+    }
+    .heading1{
+
+      margin: 0px;
+    }
+}
