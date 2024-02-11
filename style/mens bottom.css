@@ -91,13 +91,10 @@
 
 }
 
-.banner{
-    display: flex;
-    justify-content: space-around;
-    height: fit-content;
+
     
-}
-.banner-card3{
+
+.banner-card{
         width: 550px;
         height: 400px;
         padding-left: 20px;
@@ -113,7 +110,7 @@
         transition: 0.5s;
         box-shadow: 10px 10px 20px 1px #000000;
  }
-.banner-card4{
+.banner-card{
             width: 550px;
             height:400px;
             margin-top: 20px;
@@ -267,9 +264,9 @@ body {
     bottom: 15px;
 }
 
-.heading1 {
+.heading-wear {
     width: 230px;
-    margin-left: 30px;
+    margin-left: 300px;
     text-align: center;
     padding: 10px 10px;
     font-size: large;
@@ -277,11 +274,10 @@ body {
     background-color: white;
     color: #b30059;
     border-radius: 10px;
-    position: relative;
-    left: 500px;
+   
 }
 
-.heading1:hover {
+.heading-wear:hover {
     box-shadow: 10px 10px 10px 2px #b3b3b3;
     background-color: white;
     color: #004080;
@@ -370,5 +366,3 @@ body {
     bottom: 5px;
     margin-left: 10px;
 }
-
-
