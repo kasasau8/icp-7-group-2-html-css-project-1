@@ -1,11 +1,594 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mens Top</title>
+    <title>Womens</title>
+    <link rel="stylesheet" href="./style/style.css" />
+    <link rel="stylesheet" href="./../style/women.css">
+<style>
+
+.colors {
+    color: #3db6bc;
+    color: #054b4e;
+    color: black;
+    color: white;
+    color: #efa9b1;
+    color: #f0c14a;
+    color: #e1b9b9;
+}
+
+
+.nav-bar {
+    background-color: #efa9b1;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 80px;
+}
+
+.shop-logo {
+    height: 60px;
+    margin: 5px;
+}
+
+.menu {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    background-color: transparent;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.nav-options-div {
+    display: flex;
+    justify-content: space-between;
+    color: black;
+    margin: 0 10px;
+    border-radius: 10px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.nav-options-div:hover {
+    background-color: transparent;
+    color: white;
+}
+
+.special-option {
+    padding: 5px 10px;
+    font-size: 20px;
+}
+
+.nav-options {
+    font-size: 20px;
+    text-decoration: none;
+    color: #000000;
+    margin: 0 10px;
+    padding: 5px;
+}
+
+.more-options {
+    position: relative;
+}
+
+.more-options-list {
+    visibility: hidden;
+    position: absolute;
+    background-color: #efa9b1;
+    top: 10px;
+    left: 10px;
+    padding: 20px;
+    list-style: none;
+    border-radius: 10px;
+}
+
+.more-options:hover>.more-options-list {
+    visibility: visible;
+}
+
+.list-anchors {
+    text-decoration: none;
+    color: black;
+}
+
+.list-anchors:hover {
+    color: white;
+}
+
+.nav-options-div:hover>.nav-options {
+    color: white;
+}
+
+.footer {
+    background-color: #f0c14a;
+    margin-top: 0px;
+    padding: 10px 0;
+
+}
+
+.sections-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 80px;
+}
+
+.footer-sections {
+    width: 200px;
+    color: black;
+    background-color: transparent;
+}
+
+.section-title {
+    font-size: 20px;
+    font-family:  'Times New Roman', Times, serif;
+    font-weight: 800;
+}
+
+.about-links {
+    text-decoration: none;
+    color: black;
+    font-family:  'Times New Roman', Times, serif;
+}
+
+.section-links {
+    margin-left: 15px;
+    color: black;
+    font-size: 15px;
+    font-family:  'Times New Roman', Times, serif;}
+
+.about-links {
+    font-family:  'Times New Roman', Times, serif;
+    font-size: 17px;
+    text-decoration: none;
+    color: black;
+}
+
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
+.fashion-card {
+    width: 660px;
+    height: 340px;
+    margin: 20px;
+}
+
+.fashion-card:hover {
+    transition: 0.5s;
+    box-shadow: 10px 10px 20px 1px #b3b3b3;
+}
+
+
+.Card {
+    width: 180px;
+    height: 300px;
+    border: 2px solid #4d0039;
+    border-radius: 10px;
+    margin-top: 40px;
+    margin-left: 50px;
+    box-shadow: 10px 10px 20px 1px #b3b3b3;
+    display: inline-block;
+    position: relative;
+    bottom: 20px;
+    position: relative;
+    left: 30px;
+}
+
+.Card:hover {
+    transition: 0.5s;
+    border: 2px solid red;
+    box-shadow: 10px 10px 10px 2px #b3b3b3;
+}
+
+.icon {
+    height: 25px;
+}
+
+
+
+.cloth-image {
+    width: 180px;
+    height: 150px;
+    border-radius: 10px 5px 0px;
+    display: inline-block;
+}
+
+.product-title {
+    font-size: 13px;
+    margin-left: 25px;
+}
+
+.product-title1 {
+    font-size: 13px;
+    margin-left: 50px;
+
+}
+
+.product-title2 {
+    font-size: 12px;
+    margin-left: 35px;
+
+}
+
+.product-price {
+    padding-left: 20px;
+    font-size: 15px;
+}
+
+.Stars-image {
+    width: 80px;
+    border-radius: 0;
+    padding-left: 5px;
+    position: relative;
+    bottom: 15px;
+}
+
+.heading1 {
+    width: 230px;
+    margin-left: 30px;
+    text-align: center;
+    padding: 10px 10px;
+    font-size: large;
+    box-shadow: 10px 10px 10px 2px #b3b3b3;
+    background-color: white;
+    color: #b30059;
+    border-radius: 10px;
+    position: relative;
+    left: 500px;
+}
+
+.heading1:hover {
+    box-shadow: 10px 10px 10px 2px #b3b3b3;
+    background-color: white;
+    color: #004080;
+}
+
+
+.btn-buy-now {
+    position: relative;
+    bottom: 5px;
+    left: 5px;
+    background-color: #6699ff;
+    border-color: #0055ff;
+    color: white;
+    border-radius: 10px;
+}
+
+.btn-buy-now:hover {
+    background-color: #ffffff;
+    color: #e60082;
+    border-color: white;
+}
+
+.line {
+    border: dashed;
+    color: #f2f2f2;
+}
+
+.btn-1 {
+    background-color: #e6e6e6;
+    border-radius: 2px;
+    padding: 10px 10px;
+    font-size: 15px;
+    margin-left: 25px;
+    padding-bottom: 18px;
+    width: 300px;
+    border: none;
+    text-align: center;
+}
+.link {
+    text-decoration: none;
+    margin-left: 90px;
+    position: relative;
+    left: 400px;
+    width: 230px;
+    text-align: center;
+    padding: 10px 10px;
+    font-size: large;
+    background-color:white;
+    color:blue;
+    border-radius: 10px;
+}
+
+
+</style>
 </head>
+
 <body>
-    <h1>Mens Top Page</h1>
+    <div class="head">
+        <div class="nav-bar">
+            <div>
+                <img class="shop-logo" src="C:\Users\HP\Desktop\web\shop-logo.png" />
+            </div>
+            <div class="menu">
+                <div class="nav-options-div"><a class="nav-options" href="./pages/mens.html">Mens</a></div>
+                <div class="nav-options-div"><a class="nav-options" href="./pages/womens.html">Women</a></div>
+                <div class="nav-options-div"><a class="nav-options" href="./pages/kids.html">Kids</a></div>
+                <div class="nav-options-div special-option"> <i class="fa-solid fa-cart-shopping"></i> </div>
+                <div class="nav-options-div  special-option more-options"><i class="fa-solid fa-ellipsis-vertical"></i>
+                    <ul class="more-options-list">
+                        <li><a href="#" class="list-anchors"> Contact </a> </li>
+                        <li><a href="#" class="list-anchors"> About </a> </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <img src="C:\Users\HP\Desktop\web\BANNER1.webp" class="fashion-card">
+    <img src="C:\Users\HP\Desktop\web\BANNER3.jpg" class="fashion-card">
+    <div>
+        <button class="btn-1"><img src="C:\Users\HP\Desktop\web\check-mark.png" class="icon"> &nbsp;&nbsp;Quality Product</button>
+        <button class="btn-1"><img src="C:\Users\HP\Desktop\web\delivery-truck.png" class="icon">&nbsp;&nbsp;Free Shipping</button>
+        <button class="btn-1"><img src="C:\Users\HP\Desktop\web\telephone.png" class="icon"> &nbsp;&nbsp;14 Days Return</button>
+        <button class="btn-1"><img src="C:\Users\HP\Desktop\web\icp-7-group-2-html-css-project-1-master\women icon\transfer (1).png" class="icon">&nbsp;&nbsp; 24/7 Support</button>
+        <hr class="line">
+        
+    </div>
+    <!-- // Kurtis COLLECTION // -->
+    <hr class="line">
+    <h2 class="heading1">KURTIS &nbsp; COLLECTION</h2>
+    <div class="Card">
+        <img src="C:\Users\HP\Desktop\web\MK1.jpg" class="cloth-image">
+        <h3 class="product-title"><b>"High Neck"</b></h3>
+
+        <p class="product-price"><del>₹ 1000/-</del> <b>₹ 527/-</b></p>
+
+        <img src="stars.png" alt="Stars" class="Stars-image">
+
+
+        <button class="btn-buy-now">Buy Now</button>
+
+    </div>
+    <div class="Card">
+        <img src="C:\Users\HP\Desktop\web\MK2.jpg" class="cloth-image">
+        <h3 class="product-title"><b>"Round Neck"</b></h3>
+
+        <p class="product-price"><del>₹ 2190/-</del> <b>₹ 1520/-</b></p>
+
+        <img src="stars.png" alt="Stars" class="Stars-image">
+
+        <button class="btn-buy-now">Buy Now</button>
+
+    </div>
+    <div class="Card">
+        <img src="C:\Users\HP\Desktop\web\MK3.jpg" class="cloth-image">
+        <h3 class="product-title"><b>"V-Neck"</b></h3>
+
+        <p class="product-price"><del>₹ 500/-</del> <b>₹ 399/-</b></p>
+
+        <img src="stars.png" alt="Stars" class="Stars-image">
+
+        <button class="btn-buy-now">Buy Now</button>
+
+    </div>
+    <div class="Card">
+        <img src="C:\Users\HP\Desktop\web\MK5.webp" class="cloth-image">
+        <h3 class="product-title"><b>"blackv-Neck"</b></h3>
+
+        <p class="product-price"><del>₹ 5000/-</del> <b>₹ 4000/-</b></p>
+
+        <img src="stars.png" alt="Stars" class="Stars-image">
+
+        <button class="btn-buy-now">Buy Now</button>
+
+    </div>
+    <div class="Card">
+        <img src="C:\Users\HP\Desktop\web\MK4.jpg" class="cloth-image">
+        <h3 class="product-title"><b>"Crew Neck"</b></h3>
+
+        <p class="product-price"><del>₹ 500/-</del> <b>₹ 399/-</b></p>
+
+        <img src="stars.png" alt="Stars" class="Stars-image">
+
+        <button class="btn-buy-now">Buy Now</button>
+
+    </div>
+    <div class="Card">
+        <img src="C:\Users\HP\Desktop\web\MK6.jpg" class="cloth-image">
+        <h3 class="product-title"><b>"Full Coller Neck"</b></h3>
+
+        <p class="product-price"><del>₹ 500/-</del> <b>₹ 399/-</b></p>
+
+        <img src="stars.png" alt="Stars" class="Stars-image">
+
+        <button class="btn-buy-now">Buy Now</button>
+
+    </div>
+    <!-- //jacket COLLECTION // -->
+    <hr class="line">
+    <h2 class="heading1">JACKET &nbsp; COLLECTION</h2>
+    <div class="Card">
+        <img src="C:\Users\HP\Desktop\web\MJ7.jpg" class="cloth-image">
+        <h3 class="product-title1"><b>"JACKET"</b></h3>
+
+        <p class="product-price"><del>₹ 1000/-</del> <b>₹ 527/-</b></p>
+
+        <img src="stars.png" alt="Stars" class="Stars-image">
+
+
+        <button class="btn-buy-now">Buy Now</button>
+
+    </div>
+    <div class="Card">
+        <img src="C:\Users\HP\Desktop\web\MT3.avif" class="cloth-image">
+        <h3 class="product-title1"><b>"JACKET"</b></h3>
+
+        <p class="product-price"><del>₹ 290/-</del> <b>₹ 152/-</b></p>
+
+        <img src="stars.png" alt="Stars" class="Stars-image">
+
+        <button class="btn-buy-now">Buy Now</button>
+
+    </div>
+    <div class="Card">
+        <img src="C:\Users\HP\Desktop\web\MT4.jpg" class="cloth-image">
+        <h3 class="product-title1"><b>"JACKET"</b></h3>
+
+        <p class="product-price"><del>₹ 900/-</del> <b>₹ 799/-</b></p>
+
+        <img src="stars.png" alt="Stars" class="Stars-image">
+
+        <button class="btn-buy-now">Buy Now</button>
+
+    </div>
+    <div class="Card">
+        <img src="C:\Users\HP\Desktop\web\MT5.jpg" class="cloth-image">
+        <h3 class="product-title1"><b>"JACKET"</b></h3>
+
+        <p class="product-price"><del>₹ 800/-</del> <b>₹ 700/-</b></p>
+
+        <img src="stars.png" alt="Stars" class="Stars-image">
+
+        <button class="btn-buy-now">Buy Now</button>
+
+    </div>
+    <div class="Card">
+        <img src="C:\Users\HP\Desktop\web\MT6.jpg" class="cloth-image">
+        <h3 class="product-title1"><b>"JACKET"</b></h3>
+
+        <p class="product-price"><del>₹ 500/-</del> <b>₹ 399/-</b></p>
+
+        <img src="stars.png" alt="Stars" class="Stars-image">
+
+        <button class="btn-buy-now">Buy Now</button>
+
+    </div>
+    <div class="Card">
+        <img src="C:\Users\HP\Desktop\web\MT7.jpg" class="cloth-image">
+        <h3 class="product-title1"><b>"JACKET"</b></h3>
+
+        <p class="product-price"><del>₹ 400/-</del> <b>₹ 299/-</b></p>
+
+        <img src="stars.png" alt="Stars" class="Stars-image">
+
+        <button class="btn-buy-now">Buy Now</button>
+
+    </div>
+    <!-- // SHIRT COLLECTION  // -->
+    <hr class="line">
+    <h2 class="heading1">SHIRT &nbsp; COLLECTION mens</h2>
+    <div class="Card">
+        <img src="C:\Users\HP\Desktop\web\MS1.jpg" class="cloth-image">
+        <h3 class="product-title2"><b>"SHIRT"</b></h3>
+
+        <p class="product-price"><del>₹ 1000/-</del> <b>₹ 785/-</b></p>
+
+        <img src="stars.png" alt="Stars" class="Stars-image">
+
+
+        <button class="btn-buy-now">Buy Now</button>
+
+    </div>
+    <div class="Card">
+        <img src="C:\Users\HP\Desktop\web\MS4.jpg" class="cloth-image">
+        <h3 class="product-title2"><b>"SHIRT"</b></h3>
+
+        <p class="product-price"><del>₹ 21000/-</del> <b>₹ 19999/-</b></p>
+
+        <img src="stars.png" alt="Stars" class="Stars-image">
+
+        <button class="btn-buy-now">Buy Now</button>
+
+    </div>
+    <div class="Card">
+        <img src="C:\Users\HP\Desktop\web\MS3.jpg" class="cloth-image">
+        <h3 class="product-title2"><b>"SHIRT"</b></h3>
+
+        <p class="product-price"><del>₹ 5000/-</del> <b>₹ 3999/-</b></p>
+
+        <img src="stars.png" alt="Stars" class="Stars-image">
+
+        <button class="btn-buy-now">Buy Now</button>
+
+    </div>
+    <div class="Card">
+        <img src="C:\Users\HP\Desktop\web\MS7.jpg" class="cloth-image">
+        <h3 class="product-title2"><b>"SHIRT"</b></h3>
+
+        <p class="product-price"><del>₹ 15000/-</del> <b>₹ 14000/-</b></p>
+
+        <img src="stars.png" alt="Stars" class="Stars-image">
+
+        <button class="btn-buy-now">Buy Now</button>
+
+    </div>
+    <div class="Card">
+        <img src="C:\Users\HP\Desktop\web\MS5.jpg" class="cloth-image">
+        <h3 class="product-title2"><b>"SHIRT"</b></h3>
+
+        <p class="product-price"><del>₹ 8500/-</del> <b>₹ 7599/-</b></p>
+
+        <img src="stars.png" alt="Stars" class="Stars-image">
+
+        <button class="btn-buy-now">Buy Now</button>
+
+    </div>
+    <div class="Card">
+        <img src="C:\Users\HP\Desktop\web\MS6.jpg" class="cloth-image">
+        <h3 class="product-title2"><b>"SHIRT"</b></h3>
+
+        <p class="product-price"><del>₹ 9876/-</del> <b>₹ 5478/-</b></p>
+
+        <img src="stars.png" alt="Stars" class="Stars-image">
+
+        <button class="btn-buy-now">Buy Now</button>
+
+    </div>
+
+    <footer class="footer">
+        <div class="sections-container">
+
+            <div class="footer-sections ">
+                <p class="section-title">About</p>
+                <div class="section-links">
+                    <p><a href="Contact Us" class="about-links">Contact Us</a></p>
+                    <p><a href="About Us" class="about-links">About Us</a></p>
+                    <p><a href="Corporate Information" class="about-links">Corporate Information</a></p>
+                </div>
+            </div>
+
+            <div class="footer-sections">
+                <p class="section-title">Consumer Policy:</p>
+                <div class="section-links">
+                    <p>Cancellation & Return</p>
+                    <p> Terms of use</p>
+                    <p>Security</p>
+                    <p>Privacy</p>
+                </div>
+            </div>
+
+            <div class="footer-sections">
+                <p class="section-title">Help</p>
+                <div class="section-links">
+                    <p>Payment</p>
+                    <p>Shipping</p>
+                    <p>Cancellation</p>
+                    <p>FAQ</p>
+                </div>
+            </div>
+
+            <div class="footer-sections">
+                <p class="section-title">Social:</p>
+                <div class="section-links">
+                    <p><i class="fa-solid fa-envelope"></i> &nbsp; Mail Us</p>
+                    <p><i class="fa-solid fa-phone"></i> &nbsp; Call Us</p>
+                    <p><i class="fa-brands fa-instagram"></i> &nbsp; Instagram</p>
+                    <p><i class="fa-brands fa-linkedin"></i> &nbsp; Linkdin</p>
+                </div>
+            </div>
+        </div>
+
+        <hr />
+        <p style="text-align: center; color: rgb(4, 4, 4); margin: 0; padding: 0;">Copyright@ ICP-7 Group-2</p>
+
+    </footer>
+
+    <script src="https://kit.fontawesome.com/029a190c6b.js" crossorigin="anonymous"></script>
 </body>
+
 </html>

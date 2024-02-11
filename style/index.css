@@ -1,0 +1,353 @@
+.head {
+    margin: 0;
+}
+
+.banner-sec {
+    background-color: #f0c14a;
+    margin: 0;
+    padding-top: 5px;
+}
+
+.banner-div {
+    width: 75%;
+    padding: 0;
+    margin: 0 auto;
+}
+
+.banner {
+    width: 100%;
+    margin: 0;
+    border-radius: 0px 0px 5px 5px;
+}
+
+.main {
+    padding-bottom: 30px;
+}
+
+.banner-sec-title {
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+}
+
+.banner-title {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 500;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 20px;
+    color: white;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.offer_block {
+    border: none;
+    width: 350px;
+    padding: 10px 15px;
+    background-color: #ffe6a7;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.offer_block:hover {
+    border-radius: 20px;
+    background-color: #ffe6a7;
+    box-shadow: 1px 1px 10px 2px #1b4e51;
+    transition: 0.5s;
+}
+
+.product-container {
+    width: 150px;
+    margin: 8px;
+    padding-right: 0;
+    display: inline-block;
+    font-size: 20px;
+}
+
+.product-img {
+    height: 100px;
+    width: 150px;
+    border-radius: 5px 5px;
+    margin-left: 0px;
+    display: inline;
+}
+
+.product-title {
+    margin-top: 0px;
+    padding-left: 20px;
+    font-size: 18px;
+}
+
+h5 {
+    margin-left: 5px;
+}
+
+h5:hover {
+    color: brown;
+}
+
+
+
+.brand-logo {
+    background-color: transparent;
+    width: 92%;
+    margin-left: 60px;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.brand-img {
+    width: 150px;
+    height: 120px;
+    padding: 0px;
+}
+
+.brand-img:hover {
+    box-shadow: 1px 1px 10px 2px #292222;
+    border-radius: 50px 50px;
+}
+
+.mens-main {
+    background-color: #ffe6a7;
+    width: 85%;
+    padding: 40px 50px;
+    margin: 3px auto;
+    position: relative;
+    border-radius: 5px;
+}
+
+.mens-section-title {
+    color: black;
+    padding-left: 20px;
+    margin-top: 10px;
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.mens-container {
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.mens-img {
+    width: 200px;
+    padding: 10px;
+}
+
+.btn-explore {
+    position: absolute;
+    bottom: 15px;
+    right: 30px;
+    border: none;
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    padding: 5px 15px;
+
+}
+
+@media screen and (max-width: 500px) {
+    .main {
+        padding-bottom: 20px;
+    }
+
+    .banner-sec {
+        width: 100%;
+    }
+
+    .banner-sec-title {
+        font-size: 15px;
+    }
+
+    .banner-title {
+        font-size: 15px;
+    }
+
+    .container {
+        display: block;
+        margin: 0 50px;
+    }
+
+    .offer_block {
+        height: 330px;
+    }
+
+    .h5 {
+        margin: 5px;
+    }
+
+    .product-img {
+        height: 70px;
+        width: 110px;
+    }
+
+    .pr-container {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+
+    .offer_block {
+        margin: 5px;
+    }
+
+    .offer-block-title {
+        font-size: 18px;
+    }
+
+    .product-title {
+        font-size: small;
+    }
+
+    .brand-logo {
+        margin: 0;
+    }
+
+    .brand-img-div {
+        display: inline;
+    }
+
+    .brand-img {
+        height: 100px;
+        width: 100px;
+    }
+
+    .mens-main {
+        width: 90%;
+        padding: 30px 20px;
+    }
+
+    .mens-section-title {
+        font-size: 20px;
+    }
+
+    .mens-container {
+        width: 400px;
+        gap: 0;
+        justify-content: space-around;
+
+    }
+
+    .mens-img {
+        height: 120px;
+        width: 80px;
+    }
+
+    .btn-explore {
+        padding: 3px 10px;
+        bottom: 10px;
+        right: 20px;
+        font-size: 12px;
+    }
+}
+
+@media screen and (min-width:501px) and (max-width:768px) {
+    .main {
+        padding-bottom: 10px;
+    }
+    .banner-sec-title {
+        margin: 5px;
+        font-size: 15px;
+    }
+
+    .banner-title {
+        font-size: 20px;
+    }
+
+    .container {
+        flex-direction: column;
+        margin: 0 auto;
+
+    }
+    .offer_block {
+        margin: 2px 15px;
+        width: 90%;
+        font-size: 12px;
+    }
+
+    .offer_block-title {
+        width: 20px;
+        font-size: 10px;
+    }
+
+    .product-container {
+        gap: 30px;
+        width: 100px;
+    }
+
+    .product-img {
+        height: 100px;
+        width: 100px;
+    }
+
+    .pr-container {
+        margin: 0px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        height: 150px;
+    }
+
+    .product-title {
+        font-size: 15px;
+    }
+    .h5 {
+        font-size: 20px;
+        margin: 2px;
+    }
+    .brand-logo {
+        margin: 0;
+    }
+
+    .brand-img-div {
+        display: inline;
+    }
+
+    .brand-img {
+        height: 100px;
+        width: 100px;
+    }
+
+    .mens-main {
+        width: 90%;
+        padding: 30px 20px;
+    }
+
+    .mens-section-title {
+        font-size: 20px;
+    }
+
+    .mens-container {
+        width: 80%;
+        gap: 0;
+        justify-content: space-around;
+        margin-left: 50px;
+    }
+
+    .mens-img {
+        gap: 100px;
+        height: 170px;
+        width: 140px;
+    }
+
+    .btn-explore {
+        padding: 5px 10px;
+        bottom: 10px;
+        right: 20px;
+        font-size: 13px;
+    }
+
+
+}
