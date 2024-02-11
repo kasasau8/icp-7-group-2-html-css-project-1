@@ -303,6 +303,7 @@ body {
     height:600px ;
     width: 1000px;
     padding: 50px 250px;
+    
 
 }
 .about-us{
@@ -311,6 +312,7 @@ body {
    width: 900px; 
    margin:50px 230px;
    padding: 50px 70px;
+   box-shadow:0px 20px 10px 2px rgb(138, 136, 136);
 
 }
 .about-heading{
@@ -329,6 +331,7 @@ body {
     height:130px;
     width:300px;
     margin  : 50px;
+    box-shadow:0px 20px 10px 2px rgb(138, 136, 136);
 
 }
 .about-img{
@@ -353,6 +356,7 @@ body {
     display: flex;
     flex-direction: row;
     padding: 25px;
+    box-shadow:0px 20px 10px 2px rgb(138, 136, 136);
     
 }
 .shop-description{
