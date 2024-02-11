@@ -141,6 +141,88 @@ body {
 
 .mail-link {
     text-decoration: none;
+<<<<<<< HEAD
+    color: white;
+}
+.main{
+    padding: 15px 10px;
+}
+.cloths {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+h1 {
+ text-align: center;
+
+}
+.cloths .item {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.cloths img {
+    width: 240px; 
+    height: 160px;
+    border-radius: 50%;
+    
+}
+
+.cloths img:hover{
+
+    transform: scale(1.1);
+
+}
+
+.cloths p {
+    margin-top: 5px;
+}
+.box img {
+    width: 70%;
+}
+.container {
+    display: flex;
+    font-size: 20px;
+    background-color:rgb(129, 131, 135);
+    color: #fff;
+}
+
+.box {
+    width: 25%;
+}
+
+.content {
+    padding: 20px;
+}
+
+.container li{
+    padding: 10px;
+}
+.container img {
+    width: 75%;
+    height: 450px;
+}
+
+
+.item {
+    width: 150px; 
+    margin: 10px;
+}
+
+.item img {
+    width: 100%; 
+    border-radius: 50%; 
+}
+.item a{ 
+display: block;
+margin: 18px 18px;
+position: relative;
+top: 20px;
+border: 2px solid black;
+border-radius:50%;
+padding: 25px;
+=======
     color: black;
 }
 
@@ -289,4 +371,5 @@ body {
     .mail-link {
         text-decoration: none;
     }
+>>>>>>> 1fb9ebe4a6a1db99fe6a06e8806587dfd85d476a
 }
