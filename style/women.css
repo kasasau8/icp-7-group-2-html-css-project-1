@@ -114,7 +114,6 @@ body {
     background-color: #ffe6a7;
     padding: 10px 0;
     margin-top: 20px;
-
 }
 
 .sections-container {
@@ -510,7 +509,7 @@ margin-left: 30px;
     border-radius: 10px;
 }
 
-.linkk {
+.linkk{
 
     text-decoration: none;
     margin-left: 20px;
@@ -593,24 +592,24 @@ margin-left: 30px;
 
 @media screen and (max-width: 500px) {
     .fashion-card1 {
-        width: 220px;
-        height: 150px;
-        position: relative;
-        left: 3px;
+        width: 430px;
+        height: 200px;
+      position: relative;
+      left: 1px;
     }
 
     .fashion-card2 {
-        width: 220px;
-        height: 150px;
+        width: 430px;
+        height: 200px;
         position: relative;
-        left: 3px;
+        left: 0px;
     }
 
     .btn-1 {
         width: 200px;
         margin: 10px;
         position: relative;
-        left: 25px;
+        left: 2px;
         justify-content: space-around;
     }
 
@@ -627,32 +626,37 @@ margin-left: 30px;
     .Card {
         justify-content: space-around;
         position: relative;
-        left: 15px;
+        left: auto;
         width: 150px;
-
+        margin-left: 40px;
     }
 }
 
 @media screen and (min-width:501px) and (max-width:768px) {
     .fashion-card1 {
-        width: 350px;
-        height: 170px;
+        width: 710px;
+        height: 250px;
+        margin-left: 0px;
         position: relative;
-        left: 2px;
-
+        left: 1px;
+        position: relative;
+        right: 10px;
     }
 
     .fashion-card2 {
-        width: 350px;
-        height: 170px;
-        margin-left: 1px;
-
+        width: 710px;
+        height: 250px;
+        margin-left: 0px;
+        position: relative;
+        left: 1px;
+        position: relative;
+        right: 10px;
     }
 
     .Card {
         justify-content: space-around;
         position: relative;
-        left: 50px;
+        left:15px;
     }
 
     .link {
@@ -669,7 +673,7 @@ margin-left: 30px;
         width: 300px;
         margin: 10px;
         position: relative;
-        left: 60px;
+        left: 30px;
         justify-content: space-around;
     }
 }
