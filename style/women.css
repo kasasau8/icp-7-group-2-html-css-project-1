@@ -1,9 +1,13 @@
+
 body {
     margin: 0px;
     padding: 0px;
     background-color: #ffffff;
 }
-
+.box-1{
+    margin: 0 50px;
+    
+}
 .colors {
     color: #3db6bc;
     color: #054b4e;
@@ -305,7 +309,9 @@ body {
         text-decoration: none;
     }
 }
-
+.main-div{
+margin-left: 30px;
+}
 .fashion-card1 {
     width: 620px;
     height: 300px;

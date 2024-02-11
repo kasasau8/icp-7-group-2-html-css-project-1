@@ -133,7 +133,7 @@ border-color: white;
 .fashion-cards{
     width: 620px;
     height: 300px;
-    margin: 40px;
+    margin: 10px;
     Position:relative;
     Left: 60Px;
 }
@@ -637,7 +637,7 @@ box-shadow: 10px 10px 10px 2px #b3b3b3;
 }
 .heading-wear {
 width: 230px;
-margin-left: 600px;
+margin-top:10px;
 text-align: center;
 padding: 8px 8px;
 font-size: large;
