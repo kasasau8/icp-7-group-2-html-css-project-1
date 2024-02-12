@@ -1,0 +1,92 @@
+.heading {
+    background-color: #ff0066;
+    font-size: 50px;
+    text-align: center;
+}
+
+.fashion-card {
+    width: 600px;
+    height: 300px;
+    margin: 20px;
+}
+
+.cloth-list {
+    border-radius: 15px;
+    border-color: #cc0066;
+    text-align: center;
+    margin: 10px;
+    margin-left: 300px;
+    width: 50px;
+}
+
+.border {
+    border-radius: 15px;
+    border-color: #cc0066;
+    text-align: center;
+    margin: 10px;
+    width: 230px;
+    font-size: 20px;
+}
+
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
+.Card {
+    width: 150px;
+    height: 280px;
+    border: 2px solid #4d0039;
+    border-radius: 10px;
+    margin-top: 40px;
+    margin-left: 50px;
+    box-shadow: 10px 10px 20px 1px #b3b3b3;
+    display: inline-block;
+}
+
+.Card:hover {
+    transition: 0.5s;
+    border: 2px solid #002266;
+    box-shadow: 10px 10px 10px 2px #b3b3b3;
+}
+
+.cloth-image {
+    width: 150px;
+    height: 130px;
+    border-radius: 10px 5px 0px;
+    display: inline-block;
+}
+
+.product-title {
+    font-size: 13px;
+    margin-left: 40px;
+}
+
+.product-price {
+    padding-left: 20px;
+    font-size: 15px;
+}
+
+.Stars-image {
+    width: 80px;
+    border-radius: 0;
+    position: relative;
+    bottom: 15px;
+}
+
+
+.btn-buy-now {
+    position: relative;
+    bottom: 15px;
+    left: 35px;
+    background-color: #6699ff;
+    border-color: #0055ff;
+    color: white;
+    border-radius: 10px;
+}
+
+.btn-buy-now:hover {
+    background-color: #ffffff;
+    color: #e60073;
+    border-color: white;
+}

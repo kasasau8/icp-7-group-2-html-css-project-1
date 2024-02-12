@@ -39,14 +39,14 @@ body {
 }
 
 .banner-card{
-    width: 380px;
-    height: 400px;
+    width: 370px;
+    height: 350px;
     margin-top: 20px;
     margin-bottom: 20px;
-        margin-left: 20px;
-        margin-right: 20px;
-        border-color: black;
-        border-radius: 10px 10px 10px;
+     margin-left: 20px;
+     margin-right: 20px;
+    border-color: black;
+    border-radius: 10px 10px 10px;
         
 }
 .banner-card:hover{
@@ -182,19 +182,42 @@ body {
 
 /*check*/
 @media screen and (max-width: 500px) {
-    .nav-bar {
-        flex-direction: column;
+    .container{
+        height: 400px;
+        width: 500px;
     }
-
-    .shop-logo {
-        margin-left: 100px;
+    .banner-card{
+        height: 350px;
+        width: 500px;
     }
-
-    .menu {
-        font-size: 5px;
+    .banner-card1{
+        visibility: hidden;
+        height: 1px;
+        width: 1px;
     }
-
+    .main-div{
+        margin-left: 20px;
+    }
+.btn-1{
+    width: 200px;
+    margin: 10px;
+    position: relative;
+    left: 2px;
+    justify-content: space-around;
 }
+.heading1 {
+    position: relative;
+    left: -60px;
+}
+.Card{
+    left: 0px;
+}
+}
+
+
+
+
+
 @media screen and (min-width:501px) and (max-width:768px) {
     .menu {
         justify-content: end;

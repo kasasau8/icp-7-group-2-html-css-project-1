@@ -18,7 +18,6 @@ body {
 .nav-bar {
     background-color: #efa9b1;
     display: flex;
-
     justify-content: space-between;
     padding: 5px 80px;
 }
@@ -28,7 +27,6 @@ body {
     margin: 5px;
 }
 
-  
 .menu {
     font-family: 'Times New Roman', Times, serif;
     font-size: 15px;
@@ -65,11 +63,7 @@ body {
     margin: 0 10px;
     padding: 5px;
 }
-@media screen and (max-width: 500px) {
-    .main {
-        padding-bottom: 20px;
-    }
-}
+
 .more-options {
     position: relative;
 }
@@ -150,12 +144,6 @@ body {
     color: black;
 }
 
-body {
-
-    padding: 0px;
-    /* position: fixed; */
-    margin: 0%;
-}
 .section-links :hover {
     color: rgb(205, 58, 44);
 }
@@ -302,299 +290,71 @@ body {
         text-decoration: none;
     }
 }
-
-.fashion-card1 {
-    width: 620px;
-    height: 300px;
-    position: relative;
-    left: 100px;
-    margin: 10px;
+.each-branch{
+   display: flex;
+   flex-direction: row;
+   height: 400px;
+   width: 900px;
+   border: #f0c14a 2px solid ;
+   margin:30px 400px;
+   box-shadow:0px 20px 10px 2px rgb(138, 136, 136);
+   
 }
-
-.fashion-card1:hover {
-    transition: 0.5s;
-    box-shadow: 10px 10px 20px 1px #b3b3b3;
-    border-radius: 10px;
-    
-}
-
-.fashion-card2 {
-    width: 630px;
-    height: 300px;
-    position:relative;
-    left:220px;
-    margin: 10px;
-}
-
-.fashion-card2:hover {
-    transition: 0.5s;
-    box-shadow: 10px 10px 20px 1px #b3b3b3;
-    border-radius: 10px;
-}
-
-.Card {
-    width: 150px;
-    height: 275px;
-    border: 2px solid #4d0039;
-    border-radius: 10px;
-    margin-top: 40px;
-    margin-left: 90px;
-    box-shadow: 10px 10px 20px 1px #b3b3b3;
-    display: inline-block;
-    position: relative;
-    bottom: 20px;
-    position: relative;
-    left: 110px;
-    cursor:pointer;
-    transition: 0.1s ease;
-    left: 110px;
-    left: 30px;
-    align-items: center;
-    flex-wrap: wrap;
-    justify-content: space-around;
-}
-
-.Card:hover {
-    transition: 0.5s;
-    border: 2px solid red;
-    box-shadow: 10px 10px 10px 2px #b3b3b3;
+.each-branch:hover{
     transform: scale(1.15);
 }
-
-.icon {
-    height: 25px;
-    position: relative;
-    top: 5px;
+.map{
+    padding:35px 35px;
 }
-
-
-
-.cloth-image {
-    width: 150px;
-    height: 130px;
-    border-radius: 10px 5px 0px;
-    display: inline-block;
+.more-details{
+   
+    text-align: center;
+    color: #efa9b1; ;
 }
-
-.product-title {
-    font-size: 13px;
-    margin-left: 29px;
-}
-
-.product-title1 {
-    font-size: 13px;
+.owner-detail{
     margin-left: 50px;
-
 }
+.contact-visit{
 
-.product-title2 {
-    font-size: 15px;
-    margin-left: 32px;
-
-}
-
-.product-price {
-    font-size: 14px;
     text-align: center;
+    color: #8d5353;
 }
-
-.Stars-image {
-    width: 80px;
-    border-radius: 0;
-    padding-left: 5px;
-    position: relative;
-    bottom: 15px;
-}
-
-.heading1 {
-    width: 230px;
-    margin-left: 10px;
+.branch{
     text-align: center;
-    padding: 10px 10px;
-    font-size: 18px;
-    box-shadow: 10px 10px 10px 2px #b3b3b3;
-    background-color: white;
-    color: #b30059;
-    border-radius: 10px;
-    position: relative;
-    left: 700px;
+    color: #f0c14a;
+    font-size: 60px;
 }
-
-.heading1:hover {
-    box-shadow: 10px 10px 10px 1px #cceeff;
-    background-color: white;
-    color: #004080;
-
+.owner-img{
+    border-radius: 50%;
+    height: 100px;
+    margin: 10px;
+    margin-left:100px;
 }
-
-
-.btn-buy-now {
-    position: relative;
-    bottom: 15px;
-    left: 39px;
-    background-color: #6699ff;
-    border-color: #0055ff;
-    color: white;
-    cursor: pointer;
-    border-radius: 10px;
+.tel-icon{
+    height: 30px;
+    margin:5px;
 }
-
-.btn-buy-now:hover {
-    background-color: #ffffff;
-    color: #e60073;
-    border-color: white;
+.wp-icon{
+    height: 30px;
+    margin:5px;
 }
-
+.email-icon{
+    height: 30px;
+    margin:5px;
+}
 .line {
-    border: dashed;
-    color: #f2f2f2;
+    border: solid;
+    color: #131212;
     Position: relative;
     Left: 0Px;
 }
-
-.btn-1 {
-    background-color: #e6e6e6;
-    border-radius: 2px;
-    padding: 10px 10px;
-    font-size: 18px;
-    margin-left: 20px;
-    padding-bottom: 18px;
-    width: 300px;
-    border: none;
-    align-items: center;
-    text-align: center;
-    Position: relative;
-    Left: 17Px;
-    justify-content: space-between;
-    color: #995c00;
+.owner-name{
+    margin:10px;
+    font-family: 'Times New Roman', Times, serif;
 }
-@media screen and (min-width:501px) and (max-width:768px) {
-    .main {
-        padding-bottom: 10px;
-    }
-}
-    .banner-sec-title {
-        margin: 5px;
-        font-size: 15px;
-    }
-
-.btn-1:hover {
-    border-radius: 10px;
-    border-color: white;
-    transition: 0.5s;
-    color: red;
-    box-shadow: 10px 10px 10px 1px #f2f2f2;
-}
-.link {
+.text-decor{
     text-decoration: none;
-    position: relative;
-    left: 440px;
-    width: 230px;
-    text-align: center;
-    padding: 10px 10px;
-    font-size: 24px;
-    background-color: white;
-    color: blue;
-    border-radius: 10px;
-}
-.linkk{
-        
-    text-decoration: none;
-    margin-left: 20px;
-    width: 230px;
-    text-align: center;
-    padding: 10px 10px;
-    font-size: large;
-    background-color: white;
-    color: blue;
-    border-radius: 10px;
-    text-align: center;
-}
-.padding-margin{
- margin-left: 120px;
- 
-}
-.Cards{
-text-align: center;
-width: 140px;
-height: 270px;
-border: 2px solid #4d0039;
-border-radius: 10px;
-margin-top: 40px;
-margin-left: 70px;
-box-shadow: 10px 10px 20px 1px #b3b3b3;
-display: inline-block;
-justify-content:space-between;
-}
-.Cards:hover {
-transition: 0.5s;
-border: 2px solid red;
-box-shadow: 10px 10px 10px 2px #b3b3b3;
-}
-.heading-wear {
-width: 230px;
-margin-left: 600px;
-text-align: center;
-padding: 8px 8px;
-font-size: large;
-box-shadow: 10px 10px 10px 2px #b3b3b3;
-background-color: white;
-color: #b30059;
-border-radius: 10px;
-
-}
-.heading-wear:hover {
-box-shadow: 10px 10px 10px 2px #b3b3b3;
-background-color: white;
-color: #004080;
-}
-.product-ttl{
-font-size: 13px;
-}
-.product-cost{
-font-size: 13px;
-text-align: center;
-
-}
-.buy-now-btn{
-background-color: #6699ff;
-border-color: #0055ff;
-color: white;
-border-radius: 10px;
-}
-.buy-now-btn:hover{
-background-color: #ffffff;
-color: #e60073;
-border-color: white;
-}
-@media screen and (max-width: 500px){
-    .fashion-card1 {
-        width: 430px;
-        height: 200px;
-      position: relative;
-      left: 1px;
-    }
-
-    .fashion-card2 {
-        width: 430px;
-        height: 200px;
-        position: relative;
-        left: 0px;
-    }
-    .padding-margin{
-        
-        margin-left: 20px;
-     
-   }
-    .btn-1 {
-        width: 200px;
-        margin: 10px;
-        position: relative;
-        left: 2px;
-        justify-content: space-around;
-    }
-    .heading1{
-
-      margin: 0px;
-    }
+    font-size: 35px;
+    color: #131212;
+    margin:5px
 }
